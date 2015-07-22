@@ -1,0 +1,4121 @@
+|************INPUT PARAMETERS************|
+Input File: input.opt
+Output File: output.opt
+T Max: 2.45
+T Min: 2
+Replicas: 6
+Size of Spin 2D Glass: 16
+MC cycles per energy sample: 500
+Number of REs: 100
+Energy samples per RE: 25
+Replica Exchange Switch: 0
+NULL SETTING: 1
+Existing Save Directory: test_save_dir/
+
+Start Time: Wed Apr 30 13:38:16 2014
+
+|--------------------DEVICE PROPERTIES-------------------|
+CUDA version:   v5000
+Number of Devices: 2
+On Device: (0) GeForce GTX 295
+Clock Rate: 1242Mhz
+Max Threads per Block: 512
+Max Threads per MultiProcessor: 1024
+MultiProcessor: 30
+Total Memory: 895Mb
+Memory Clock Rate: 999Mhz
+|--------------------------------------------------------|
+
+
+Setting CUDA block/thread count:
+Blocks: 6 Threads: 256
+
+Replica Temperatures:
+Temp(0)= 2
+Temp(1)= 2.075
+Temp(2)= 2.15
+Temp(3)= 2.225
+Temp(4)= 2.3
+Temp(5)= 2.375
+
+|------------------REMC STARTING------------------|
+|************Cycle 0************|
+
+Replicas Exchanged: 0
+
+
+Probability of move acceptance during MC cycle (dE>0): 0.07685329
+Probability of move acceptance during MC cycle: 0.26636441
+|----PRINTER COMPLETE----|
+
+|************Cycle 1************|
+(T0 -> T1)
+Delta: 12.433735 dE: 688 dB: 0.018072289 Exp(-Delta): 3.9819658e-06 DECLINED
+(T2 -> T3)
+Delta: -0.25084923 dE: -16 dB: 0.015678077 Exp(-Delta): 1.2851163 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: -0.10983982 dE: -8 dB: 0.013729977 Exp(-Delta): 1.1160993 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 0.53796582 dE: 32 dB: 0.016811432 Exp(-Delta): 0.58393488 DECLINED
+(T3 -> T4)
+Delta: -1.1724475 dE: -80 dB: 0.014655594 Exp(-Delta): 3.2298881 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 52.421053 dE: -664 dB: -0.078947368 Exp(-Delta): 1.7132712e-23 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -657.92
+Ensemble Temp: 2.075
+Average Ensemble Energy: 43.52
+Ensemble Temp: 2.15
+Average Ensemble Energy: 48.48
+Ensemble Temp: 2.225
+Average Ensemble Energy: 93.44
+Ensemble Temp: 2.3
+Average Ensemble Energy: 23.68
+Ensemble Temp: 2.375
+Average Ensemble Energy: 8.48
+
+Probability of move acceptance during MC cycle (dE>0): 0.069027474
+Probability of move acceptance during MC cycle: 0.22279948
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0
+P(T2 -> T3)= 0.5
+P(T3 -> T4)= 0.5
+P(T4 -> T5)= 0.5
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 2************|
+(T0 -> T1)
+Delta: 13.084337 dE: 724 dB: 0.018072289 Exp(-Delta): 2.0775165e-06 DECLINED
+(T2 -> T3)
+Delta: -1.0033969 dE: -64 dB: 0.015678077 Exp(-Delta): 2.7275313 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: -2.1967963 dE: -160 dB: 0.013729977 Exp(-Delta): 8.9961467 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -1.0086859 dE: -60 dB: 0.016811432 Exp(-Delta): 2.7419954 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: -1.3483146 dE: -92 dB: 0.014655594 Exp(-Delta): 3.8509297 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 62.842105 dE: -796 dB: -0.078947368 Exp(-Delta): 5.1052904e-28 DECLINED
+
+Replicas Exchanged: 4
+
+Ensemble Temp: 2
+Average Ensemble Energy: -667.04
+Ensemble Temp: 2.075
+Average Ensemble Energy: 29.84
+Ensemble Temp: 2.15
+Average Ensemble Energy: 47.76
+Ensemble Temp: 2.225
+Average Ensemble Energy: 37.36
+Ensemble Temp: 2.3
+Average Ensemble Energy: 42.08
+Ensemble Temp: 2.375
+Average Ensemble Energy: -12.96
+
+Probability of move acceptance during MC cycle (dE>0): 0.062241539
+Probability of move acceptance during MC cycle: 0.21169943
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.33333333
+P(T2 -> T3)= 0.66666667
+P(T3 -> T4)= 0.66666667
+P(T4 -> T5)= 0.66666667
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 3************|
+(T0 -> T1)
+Delta: 11.638554 dE: 644 dB: 0.018072289 Exp(-Delta): 8.8194221e-06 DECLINED
+(T2 -> T3)
+Delta: -1.6932323 dE: -108 dB: 0.015678077 Exp(-Delta): 5.4370264 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: 0.32951945 dE: 24 dB: 0.013729977 Exp(-Delta): 0.71926929 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 0.94144018 dE: 56 dB: 0.016811432 Exp(-Delta): 0.39006567 DECLINED
+(T3 -> T4)
+Delta: -3.0483635 dE: -208 dB: 0.014655594 Exp(-Delta): 21.080817 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 45.473684 dE: -576 dB: -0.078947368 Exp(-Delta): 1.7825014e-20 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -660.48
+Ensemble Temp: 2.075
+Average Ensemble Energy: 23.36
+Ensemble Temp: 2.15
+Average Ensemble Energy: 73.44
+Ensemble Temp: 2.225
+Average Ensemble Energy: 39.146667
+Ensemble Temp: 2.3
+Average Ensemble Energy: 26.346667
+Ensemble Temp: 2.375
+Average Ensemble Energy: -12.32
+
+Probability of move acceptance during MC cycle (dE>0): 0.059463747
+Probability of move acceptance during MC cycle: 0.19346412
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.25
+P(T2 -> T3)= 0.75
+P(T3 -> T4)= 0.75
+P(T4 -> T5)= 0.75
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 4************|
+(T0 -> T1)
+Delta: 13.518072 dE: 748 dB: 0.018072289 Exp(-Delta): 1.3464053e-06 DECLINED
+(T2 -> T3)
+Delta: -5.3932584 dE: -344 dB: 0.015678077 Exp(-Delta): 219.91881 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: -5.5469108 dE: -404 dB: 0.013729977 Exp(-Delta): 256.44411 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -3.3622864 dE: -200 dB: 0.016811432 Exp(-Delta): 28.855088 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: -6.0381045 dE: -412 dB: 0.014655594 Exp(-Delta): 419.0979 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 69.789474 dE: -884 dB: -0.078947368 Exp(-Delta): 4.9070071e-31 DECLINED
+
+Replicas Exchanged: 4
+
+Ensemble Temp: 2
+Average Ensemble Energy: -651.28
+Ensemble Temp: 2.075
+Average Ensemble Energy: 39.2
+Ensemble Temp: 2.15
+Average Ensemble Energy: 92.88
+Ensemble Temp: 2.225
+Average Ensemble Energy: 18.96
+Ensemble Temp: 2.3
+Average Ensemble Energy: 71.4
+Ensemble Temp: 2.375
+Average Ensemble Energy: -28.28
+
+Probability of move acceptance during MC cycle (dE>0): 0.060138058
+Probability of move acceptance during MC cycle: 0.19517577
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.4
+P(T2 -> T3)= 0.8
+P(T3 -> T4)= 0.8
+P(T4 -> T5)= 0.8
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 5************|
+(T0 -> T1)
+Delta: 11.927711 dE: 660 dB: 0.018072289 Exp(-Delta): 6.6048202e-06 DECLINED
+(T2 -> T3)
+Delta: -0.68983538 dE: -44 dB: 0.015678077 Exp(-Delta): 1.9933874 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: 1.4279176 dE: 104 dB: 0.013729977 Exp(-Delta): 0.23980777 DECLINED
+(T1 -> T2)
+Delta: 0.13449145 dE: 8 dB: 0.016811432 Exp(-Delta): 0.87416035 DECLINED
+(T3 -> T4)
+Delta: -0.17586712 dE: -12 dB: 0.014655594 Exp(-Delta): 1.1922796 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 63.473684 dE: -804 dB: -0.078947368 Exp(-Delta): 2.714746e-28 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -645.888
+Ensemble Temp: 2.075
+Average Ensemble Energy: 23.776
+Ensemble Temp: 2.15
+Average Ensemble Energy: 93.024
+Ensemble Temp: 2.225
+Average Ensemble Energy: 6.144
+Ensemble Temp: 2.3
+Average Ensemble Energy: 87.04
+Ensemble Temp: 2.375
+Average Ensemble Energy: 18.016
+
+Probability of move acceptance during MC cycle (dE>0): 0.060482008
+Probability of move acceptance during MC cycle: 0.1962115
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.33333333
+P(T2 -> T3)= 0.83333333
+P(T3 -> T4)= 0.83333333
+P(T4 -> T5)= 0.66666667
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 6************|
+(T0 -> T1)
+Delta: 9.686747 dE: 536 dB: 0.018072289 Exp(-Delta): 6.2101092e-05 DECLINED
+(T2 -> T3)
+Delta: 3.0729031 dE: 196 dB: 0.015678077 Exp(-Delta): 0.046286587 DECLINED
+(T4 -> T5)
+Delta: 0.93363844 dE: 68 dB: 0.013729977 Exp(-Delta): 0.39312076 DECLINED
+(T1 -> T2)
+Delta: 0.33622864 dE: 20 dB: 0.016811432 Exp(-Delta): 0.71445974 DECLINED
+(T3 -> T4)
+Delta: -0.93795799 dE: -64 dB: 0.014655594 Exp(-Delta): 2.5547592 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 59.684211 dE: -756 dB: -0.078947368 Exp(-Delta): 1.2008167e-26 DECLINED
+
+Replicas Exchanged: 1
+
+Ensemble Temp: 2
+Average Ensemble Energy: -641.86667
+Ensemble Temp: 2.075
+Average Ensemble Energy: 13.2
+Ensemble Temp: 2.15
+Average Ensemble Energy: 74.16
+Ensemble Temp: 2.225
+Average Ensemble Energy: 29.706667
+Ensemble Temp: 2.3
+Average Ensemble Energy: 84.08
+Ensemble Temp: 2.375
+Average Ensemble Energy: 48.613333
+
+Probability of move acceptance during MC cycle (dE>0): 0.060094166
+Probability of move acceptance during MC cycle: 0.19381685
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.28571429
+P(T2 -> T3)= 0.71428571
+P(T3 -> T4)= 0.85714286
+P(T4 -> T5)= 0.57142857
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 7************|
+(T0 -> T1)
+Delta: 11.638554 dE: 644 dB: 0.018072289 Exp(-Delta): 8.8194221e-06 DECLINED
+(T2 -> T3)
+Delta: 2.6339169 dE: 168 dB: 0.015678077 Exp(-Delta): 0.07179669 DECLINED
+(T4 -> T5)
+Delta: 1.1533181 dE: 84 dB: 0.013729977 Exp(-Delta): 0.31558789 DECLINED
+(T1 -> T2)
+Delta: 0.40347436 dE: 24 dB: 0.016811432 Exp(-Delta): 0.66799515 DECLINED
+(T3 -> T4)
+Delta: -2.2862726 dE: -156 dB: 0.014655594 Exp(-Delta): 9.8381983 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 60.315789 dE: -764 dB: -0.078947368 Exp(-Delta): 6.3853611e-27 DECLINED
+
+Replicas Exchanged: 1
+
+Ensemble Temp: 2
+Average Ensemble Energy: -639.26857
+Ensemble Temp: 2.075
+Average Ensemble Energy: 5.9885714
+Ensemble Temp: 2.15
+Average Ensemble Energy: 61.211429
+Ensemble Temp: 2.225
+Average Ensemble Energy: 41.462857
+Ensemble Temp: 2.3
+Average Ensemble Energy: 93.417143
+Ensemble Temp: 2.375
+Average Ensemble Energy: 70.514286
+
+Probability of move acceptance during MC cycle (dE>0): 0.059979711
+Probability of move acceptance during MC cycle: 0.1913826
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.25
+P(T2 -> T3)= 0.625
+P(T3 -> T4)= 0.875
+P(T4 -> T5)= 0.5
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 8************|
+(T0 -> T1)
+Delta: 9.9759036 dE: 552 dB: 0.018072289 Exp(-Delta): 4.6507191e-05 DECLINED
+(T2 -> T3)
+Delta: 4.3898615 dE: 280 dB: 0.015678077 Exp(-Delta): 0.012402447 DECLINED
+(T4 -> T5)
+Delta: 0.60411899 dE: 44 dB: 0.013729977 Exp(-Delta): 0.54655573 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 0.33622864 dE: 20 dB: 0.016811432 Exp(-Delta): 0.71445974 DECLINED
+(T3 -> T4)
+Delta: 0.64484612 dE: 44 dB: 0.014655594 Exp(-Delta): 0.52474329 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 67.263158 dE: -852 dB: -0.078947368 Exp(-Delta): 6.1373613e-30 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -637.32
+Ensemble Temp: 2.075
+Average Ensemble Energy: 0.12
+Ensemble Temp: 2.15
+Average Ensemble Energy: 51.02
+Ensemble Temp: 2.225
+Average Ensemble Energy: 54.98
+Ensemble Temp: 2.3
+Average Ensemble Energy: 102.52
+Ensemble Temp: 2.375
+Average Ensemble Energy: 87.52
+
+Probability of move acceptance during MC cycle (dE>0): 0.056981173
+Probability of move acceptance during MC cycle: 0.18053153
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.22222222
+P(T2 -> T3)= 0.55555556
+P(T3 -> T4)= 0.88888889
+P(T4 -> T5)= 0.55555556
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 9************|
+(T0 -> T1)
+Delta: 11.783133 dE: 652 dB: 0.018072289 Exp(-Delta): 7.6322144e-06 DECLINED
+(T2 -> T3)
+Delta: 1.1915338 dE: 76 dB: 0.015678077 Exp(-Delta): 0.303755 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: 1.4279176 dE: 104 dB: 0.013729977 Exp(-Delta): 0.23980777 DECLINED
+(T1 -> T2)
+Delta: 1.4121603 dE: 84 dB: 0.016811432 Exp(-Delta): 0.24361644 DECLINED
+(T3 -> T4)
+Delta: 0.11724475 dE: 8 dB: 0.014655594 Exp(-Delta): 0.8893675 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 60.947368 dE: -772 dB: -0.078947368 Exp(-Delta): 3.3954255e-27 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -635.80444
+Ensemble Temp: 2.075
+Average Ensemble Energy: -4
+Ensemble Temp: 2.15
+Average Ensemble Energy: 43.484444
+Ensemble Temp: 2.225
+Average Ensemble Energy: 68.924444
+Ensemble Temp: 2.3
+Average Ensemble Energy: 107.68
+Ensemble Temp: 2.375
+Average Ensemble Energy: 95.697778
+
+Probability of move acceptance during MC cycle (dE>0): 0.057344571
+Probability of move acceptance during MC cycle: 0.18180205
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.2
+P(T2 -> T3)= 0.6
+P(T3 -> T4)= 0.9
+P(T4 -> T5)= 0.5
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 10************|
+(T0 -> T1)
+Delta: 9.3975904 dE: 520 dB: 0.018072289 Exp(-Delta): 8.2923641e-05 DECLINED
+(T2 -> T3)
+Delta: 0.31356154 dE: 20 dB: 0.015678077 Exp(-Delta): 0.7308394 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: 3.5148741 dE: 256 dB: 0.013729977 Exp(-Delta): 0.029751547 DECLINED
+(T1 -> T2)
+Delta: 4.7072009 dE: 280 dB: 0.016811432 Exp(-Delta): 0.0090300182 DECLINED
+(T3 -> T4)
+Delta: -3.5759648 dE: -244 dB: 0.014655594 Exp(-Delta): 35.729077 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 62.526316 dE: -792 dB: -0.078947368 Exp(-Delta): 7.0010967e-28 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -634.464
+Ensemble Temp: 2.075
+Average Ensemble Energy: -7.696
+Ensemble Temp: 2.15
+Average Ensemble Energy: 57.872
+Ensemble Temp: 2.225
+Average Ensemble Energy: 76.912
+Ensemble Temp: 2.3
+Average Ensemble Energy: 93.472
+Ensemble Temp: 2.375
+Average Ensemble Energy: 102.448
+
+Probability of move acceptance during MC cycle (dE>0): 0.0595889
+Probability of move acceptance during MC cycle: 0.1902208
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.18181818
+P(T2 -> T3)= 0.63636364
+P(T3 -> T4)= 0.90909091
+P(T4 -> T5)= 0.45454545
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 11************|
+(T0 -> T1)
+Delta: 12.144578 dE: 672 dB: 0.018072289 Exp(-Delta): 5.3171223e-06 DECLINED
+(T2 -> T3)
+Delta: -0.68983538 dE: -44 dB: 0.015678077 Exp(-Delta): 1.9933874 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: -0.16475973 dE: -12 dB: 0.013729977 Exp(-Delta): 1.1791098 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -0.20173718 dE: -12 dB: 0.016811432 Exp(-Delta): 1.2235264 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.406937 dE: 96 dB: 0.014655594 Exp(-Delta): 0.24489225 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 64.105263 dE: -812 dB: -0.078947368 Exp(-Delta): 1.4435703e-28 DECLINED
+
+Replicas Exchanged: 4
+
+Ensemble Temp: 2
+Average Ensemble Energy: -633.57091
+Ensemble Temp: 2.075
+Average Ensemble Energy: -10.370909
+Ensemble Temp: 2.15
+Average Ensemble Energy: 65.585455
+Ensemble Temp: 2.225
+Average Ensemble Energy: 66.778182
+Ensemble Temp: 2.3
+Average Ensemble Energy: 103.30182
+Ensemble Temp: 2.375
+Average Ensemble Energy: 107.79636
+
+Probability of move acceptance during MC cycle (dE>0): 0.061769987
+Probability of move acceptance during MC cycle: 0.19438911
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.25
+P(T2 -> T3)= 0.66666667
+P(T3 -> T4)= 0.91666667
+P(T4 -> T5)= 0.5
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 12************|
+(T0 -> T1)
+Delta: 9.1084337 dE: 504 dB: 0.018072289 Exp(-Delta): 0.00011072801 DECLINED
+(T2 -> T3)
+Delta: 4.7661354 dE: 304 dB: 0.015678077 Exp(-Delta): 0.0085132172 DECLINED
+(T4 -> T5)
+Delta: -0.49427918 dE: -36 dB: 0.013729977 Exp(-Delta): 1.6393162 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 0.13449145 dE: 8 dB: 0.016811432 Exp(-Delta): 0.87416035 DECLINED
+(T3 -> T4)
+Delta: 0.41035662 dE: 28 dB: 0.014655594 Exp(-Delta): 0.66341362 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 69.473684 dE: -880 dB: -0.078947368 Exp(-Delta): 6.7291825e-31 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -632.72
+Ensemble Temp: 2.075
+Average Ensemble Energy: -11.373333
+Ensemble Temp: 2.15
+Average Ensemble Energy: 56.24
+Ensemble Temp: 2.225
+Average Ensemble Energy: 74.2
+Ensemble Temp: 2.3
+Average Ensemble Energy: 107.84
+Ensemble Temp: 2.375
+Average Ensemble Energy: 115.57333
+
+Probability of move acceptance during MC cycle (dE>0): 0.057997395
+Probability of move acceptance during MC cycle: 0.18213896
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.23076923
+P(T2 -> T3)= 0.61538462
+P(T3 -> T4)= 0.92307692
+P(T4 -> T5)= 0.53846154
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 13************|
+(T0 -> T1)
+Delta: 11.277108 dE: 624 dB: 0.018072289 Exp(-Delta): 1.2659427e-05 DECLINED
+(T2 -> T3)
+Delta: 3.4491769 dE: 220 dB: 0.015678077 Exp(-Delta): 0.031771777 DECLINED
+(T4 -> T5)
+Delta: 0 dE: 0 dB: 0.013729977 Exp(-Delta): 1 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -0.067245727 dE: -4 dB: 0.016811432 Exp(-Delta): 1.0695583 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: -1.4655594 dE: -100 dB: 0.014655594 Exp(-Delta): 4.3299646 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 58.421053 dE: -740 dB: -0.078947368 Exp(-Delta): 4.2467746e-26 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -632.07385
+Ensemble Temp: 2.075
+Average Ensemble Energy: -11.950769
+Ensemble Temp: 2.15
+Average Ensemble Energy: 48.590769
+Ensemble Temp: 2.225
+Average Ensemble Energy: 82.424615
+Ensemble Temp: 2.3
+Average Ensemble Energy: 111.84
+Ensemble Temp: 2.375
+Average Ensemble Energy: 118.75692
+
+Probability of move acceptance during MC cycle (dE>0): 0.058551885
+Probability of move acceptance during MC cycle: 0.18654247
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.28571429
+P(T2 -> T3)= 0.57142857
+P(T3 -> T4)= 0.92857143
+P(T4 -> T5)= 0.57142857
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 14************|
+(T0 -> T1)
+Delta: 9.0361446 dE: 500 dB: 0.018072289 Exp(-Delta): 0.00011902886 DECLINED
+(T2 -> T3)
+Delta: 4.703423 dE: 300 dB: 0.015678077 Exp(-Delta): 0.0090641968 DECLINED
+(T4 -> T5)
+Delta: -1.2631579 dE: -92 dB: 0.013729977 Exp(-Delta): 3.536572 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 0.60521154 dE: 36 dB: 0.016811432 Exp(-Delta): 0.54595892 DECLINED
+(T3 -> T4)
+Delta: -1.5241817 dE: -104 dB: 0.014655594 Exp(-Delta): 4.591385 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 65.052632 dE: -824 dB: -0.078947368 Exp(-Delta): 5.5975898e-29 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -631.38286
+Ensemble Temp: 2.075
+Average Ensemble Energy: -14.16
+Ensemble Temp: 2.15
+Average Ensemble Energy: 43.657143
+Ensemble Temp: 2.225
+Average Ensemble Energy: 87.268571
+Ensemble Temp: 2.3
+Average Ensemble Energy: 118.59429
+Ensemble Temp: 2.375
+Average Ensemble Energy: 121.87429
+
+Probability of move acceptance during MC cycle (dE>0): 0.058574898
+Probability of move acceptance during MC cycle: 0.1868572
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.26666667
+P(T2 -> T3)= 0.53333333
+P(T3 -> T4)= 0.93333333
+P(T4 -> T5)= 0.6
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 15************|
+(T0 -> T1)
+Delta: 10.481928 dE: 580 dB: 0.018072289 Exp(-Delta): 2.803862e-05 DECLINED
+(T2 -> T3)
+Delta: 2.1949308 dE: 140 dB: 0.015678077 Exp(-Delta): 0.11136627 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: 1.3729977 dE: 100 dB: 0.013729977 Exp(-Delta): 0.25334636 DECLINED
+(T1 -> T2)
+Delta: 2.8243205 dE: 168 dB: 0.016811432 Exp(-Delta): 0.059348969 DECLINED
+(T3 -> T4)
+Delta: 1.9931607 dE: 136 dB: 0.014655594 Exp(-Delta): 0.13626405 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 66.631579 dE: -844 dB: -0.078947368 Exp(-Delta): 1.1541784e-29 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -630.89067
+Ensemble Temp: 2.075
+Average Ensemble Energy: -15.893333
+Ensemble Temp: 2.15
+Average Ensemble Energy: 39.466667
+Ensemble Temp: 2.225
+Average Ensemble Energy: 94.922667
+Ensemble Temp: 2.3
+Average Ensemble Energy: 120.8
+Ensemble Temp: 2.375
+Average Ensemble Energy: 127.34933
+
+Probability of move acceptance during MC cycle (dE>0): 0.058714785
+Probability of move acceptance during MC cycle: 0.18876557
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.25
+P(T2 -> T3)= 0.5625
+P(T3 -> T4)= 0.9375
+P(T4 -> T5)= 0.5625
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 16************|
+(T0 -> T1)
+Delta: 9.7590361 dE: 540 dB: 0.018072289 Exp(-Delta): 5.7770278e-05 DECLINED
+(T2 -> T3)
+Delta: 0.25084923 dE: 16 dB: 0.015678077 Exp(-Delta): 0.77813968 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: 5.2723112 dE: 384 dB: 0.013729977 Exp(-Delta): 0.0051317363 DECLINED
+(T1 -> T2)
+Delta: 6.0521154 dE: 360 dB: 0.016811432 Exp(-Delta): 0.0023528794 DECLINED
+(T3 -> T4)
+Delta: -5.4518808 dE: -372 dB: 0.014655594 Exp(-Delta): 233.19635 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 70.736842 dE: -896 dB: -0.078947368 Exp(-Delta): 1.9027416e-31 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -630.46
+Ensemble Temp: 2.075
+Average Ensemble Energy: -17.51
+Ensemble Temp: 2.15
+Average Ensemble Energy: 50.04
+Ensemble Temp: 2.225
+Average Ensemble Energy: 98.44
+Ensemble Temp: 2.3
+Average Ensemble Energy: 110.98
+Ensemble Temp: 2.375
+Average Ensemble Energy: 132.22
+
+Probability of move acceptance during MC cycle (dE>0): 0.06100051
+Probability of move acceptance during MC cycle: 0.19475794
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.23529412
+P(T2 -> T3)= 0.58823529
+P(T3 -> T4)= 0.94117647
+P(T4 -> T5)= 0.52941176
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 17************|
+(T0 -> T1)
+Delta: 12.578313 dE: 696 dB: 0.018072289 Exp(-Delta): 3.445942e-06 DECLINED
+(T2 -> T3)
+Delta: -0.56441077 dE: -36 dB: 0.015678077 Exp(-Delta): 1.7584114 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: -0.21967963 dE: -16 dB: 0.013729977 Exp(-Delta): 1.2456776 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -0.40347436 dE: -24 dB: 0.016811432 Exp(-Delta): 1.4970169 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.2896922 dE: 88 dB: 0.014655594 Exp(-Delta): 0.27535552 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 64.105263 dE: -812 dB: -0.078947368 Exp(-Delta): 1.4435703e-28 DECLINED
+
+Replicas Exchanged: 4
+
+Ensemble Temp: 2
+Average Ensemble Energy: -630.13647
+Ensemble Temp: 2.075
+Average Ensemble Energy: -18.625882
+Ensemble Temp: 2.15
+Average Ensemble Energy: 55.482353
+Ensemble Temp: 2.225
+Average Ensemble Energy: 90.625882
+Ensemble Temp: 2.3
+Average Ensemble Energy: 114.07059
+Ensemble Temp: 2.375
+Average Ensemble Energy: 136.30118
+
+Probability of move acceptance during MC cycle (dE>0): 0.058594979
+Probability of move acceptance during MC cycle: 0.18274181
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.27777778
+P(T2 -> T3)= 0.61111111
+P(T3 -> T4)= 0.94444444
+P(T4 -> T5)= 0.55555556
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 18************|
+(T0 -> T1)
+Delta: 10.26506 dE: 568 dB: 0.018072289 Exp(-Delta): 3.4828998e-05 DECLINED
+(T2 -> T3)
+Delta: 3.3237523 dE: 212 dB: 0.015678077 Exp(-Delta): 0.03601743 DECLINED
+(T4 -> T5)
+Delta: 0.16475973 dE: 12 dB: 0.013729977 Exp(-Delta): 0.84809746 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -0.739703 dE: -44 dB: 0.016811432 Exp(-Delta): 2.0953131 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 0.70346849 dE: 48 dB: 0.014655594 Exp(-Delta): 0.49486589 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 60.947368 dE: -772 dB: -0.078947368 Exp(-Delta): 3.3954255e-27 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -629.70667
+Ensemble Temp: 2.075
+Average Ensemble Energy: -18.64
+Ensemble Temp: 2.15
+Average Ensemble Energy: 49.875556
+Ensemble Temp: 2.225
+Average Ensemble Energy: 95.546667
+Ensemble Temp: 2.3
+Average Ensemble Energy: 116.31111
+Ensemble Temp: 2.375
+Average Ensemble Energy: 137.83111
+
+Probability of move acceptance during MC cycle (dE>0): 0.058527028
+Probability of move acceptance during MC cycle: 0.18605795
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.31578947
+P(T2 -> T3)= 0.57894737
+P(T3 -> T4)= 0.94736842
+P(T4 -> T5)= 0.57894737
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 19************|
+(T0 -> T1)
+Delta: 11.783133 dE: 652 dB: 0.018072289 Exp(-Delta): 7.6322144e-06 DECLINED
+(T2 -> T3)
+Delta: 1.9440815 dE: 124 dB: 0.015678077 Exp(-Delta): 0.14311861 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: -1.4279176 dE: -104 dB: 0.013729977 Exp(-Delta): 4.1700066 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 2.4208462 dE: 144 dB: 0.016811432 Exp(-Delta): 0.088846406 DECLINED
+(T3 -> T4)
+Delta: 0.41035662 dE: 28 dB: 0.014655594 Exp(-Delta): 0.66341362 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 63.473684 dE: -804 dB: -0.078947368 Exp(-Delta): 2.714746e-28 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -629.42316
+Ensemble Temp: 2.075
+Average Ensemble Energy: -19.637895
+Ensemble Temp: 2.15
+Average Ensemble Energy: 46.357895
+Ensemble Temp: 2.225
+Average Ensemble Energy: 98.736842
+Ensemble Temp: 2.3
+Average Ensemble Energy: 120.8
+Ensemble Temp: 2.375
+Average Ensemble Energy: 138.75368
+
+Probability of move acceptance during MC cycle (dE>0): 0.060470734
+Probability of move acceptance during MC cycle: 0.19293935
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.3
+P(T2 -> T3)= 0.6
+P(T3 -> T4)= 0.95
+P(T4 -> T5)= 0.6
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 20************|
+(T0 -> T1)
+Delta: 10.626506 dE: 588 dB: 0.018072289 Exp(-Delta): 2.4264261e-05 DECLINED
+(T2 -> T3)
+Delta: -0.062712307 dE: -4 dB: 0.015678077 Exp(-Delta): 1.0647205 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: 3.8443936 dE: 280 dB: 0.013729977 Exp(-Delta): 0.021399374 DECLINED
+(T1 -> T2)
+Delta: 4.7072009 dE: 280 dB: 0.016811432 Exp(-Delta): 0.0090300182 DECLINED
+(T3 -> T4)
+Delta: -4.3380557 dE: -296 dB: 0.014655594 Exp(-Delta): 76.558541 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 67.578947 dE: -856 dB: -0.078947368 Exp(-Delta): 4.4754434e-30 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -629.168
+Ensemble Temp: 2.075
+Average Ensemble Energy: -20.664
+Ensemble Temp: 2.15
+Average Ensemble Energy: 52.048
+Ensemble Temp: 2.225
+Average Ensemble Energy: 101.28
+Ensemble Temp: 2.3
+Average Ensemble Energy: 112.816
+Ensemble Temp: 2.375
+Average Ensemble Energy: 141.848
+
+Probability of move acceptance during MC cycle (dE>0): 0.060724888
+Probability of move acceptance during MC cycle: 0.19490522
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.28571429
+P(T2 -> T3)= 0.61904762
+P(T3 -> T4)= 0.95238095
+P(T4 -> T5)= 0.57142857
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 21************|
+(T0 -> T1)
+Delta: 11.566265 dE: 640 dB: 0.018072289 Exp(-Delta): 9.48058e-06 DECLINED
+(T2 -> T3)
+Delta: -0.25084923 dE: -16 dB: 0.015678077 Exp(-Delta): 1.2851163 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: -0.16475973 dE: -12 dB: 0.013729977 Exp(-Delta): 1.1791098 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 0.33622864 dE: 20 dB: 0.016811432 Exp(-Delta): 0.71445974 DECLINED
+(T3 -> T4)
+Delta: 1.7586712 dE: 120 dB: 0.014655594 Exp(-Delta): 0.17227362 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 63.789474 dE: -808 dB: -0.078947368 Exp(-Delta): 1.9796279e-28 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -628.93714
+Ensemble Temp: 2.075
+Average Ensemble Energy: -21.493333
+Ensemble Temp: 2.15
+Average Ensemble Energy: 56.327619
+Ensemble Temp: 2.225
+Average Ensemble Energy: 94.819048
+Ensemble Temp: 2.3
+Average Ensemble Energy: 115.18476
+Ensemble Temp: 2.375
+Average Ensemble Energy: 144.47238
+
+Probability of move acceptance during MC cycle (dE>0): 0.057119101
+Probability of move acceptance during MC cycle: 0.18019751
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.27272727
+P(T2 -> T3)= 0.63636364
+P(T3 -> T4)= 0.95454545
+P(T4 -> T5)= 0.59090909
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 22************|
+(T0 -> T1)
+Delta: 9.6144578 dE: 532 dB: 0.018072289 Exp(-Delta): 6.675657e-05 DECLINED
+(T2 -> T3)
+Delta: 3.0729031 dE: 196 dB: 0.015678077 Exp(-Delta): 0.046286587 DECLINED
+(T4 -> T5)
+Delta: -0.054919908 dE: -4 dB: 0.013729977 Exp(-Delta): 1.056456 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 0.94144018 dE: 56 dB: 0.016811432 Exp(-Delta): 0.39006567 DECLINED
+(T3 -> T4)
+Delta: 0.46897899 dE: 32 dB: 0.014655594 Exp(-Delta): 0.62564073 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 64.736842 dE: -820 dB: -0.078947368 Exp(-Delta): 7.6762074e-29 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -628.66909
+Ensemble Temp: 2.075
+Average Ensemble Energy: -22.385455
+Ensemble Temp: 2.15
+Average Ensemble Energy: 52.872727
+Ensemble Temp: 2.225
+Average Ensemble Energy: 98.749091
+Ensemble Temp: 2.3
+Average Ensemble Energy: 117.02545
+Ensemble Temp: 2.375
+Average Ensemble Energy: 145.41091
+
+Probability of move acceptance during MC cycle (dE>0): 0.058395658
+Probability of move acceptance during MC cycle: 0.18583045
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.26086957
+P(T2 -> T3)= 0.60869565
+P(T3 -> T4)= 0.95652174
+P(T4 -> T5)= 0.60869565
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 23************|
+(T0 -> T1)
+Delta: 12.722892 dE: 704 dB: 0.018072289 Exp(-Delta): 2.9820739e-06 DECLINED
+(T2 -> T3)
+Delta: 1.1915338 dE: 76 dB: 0.015678077 Exp(-Delta): 0.303755 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: -1.4828375 dE: -108 dB: 0.013729977 Exp(-Delta): 4.4054285 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.2104231 dE: 72 dB: 0.016811432 Exp(-Delta): 0.29807114 DECLINED
+(T3 -> T4)
+Delta: 0 dE: 0 dB: 0.014655594 Exp(-Delta): 1 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 63.789474 dE: -808 dB: -0.078947368 Exp(-Delta): 1.9796279e-28 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -628.49391
+Ensemble Temp: 2.075
+Average Ensemble Energy: -22.970435
+Ensemble Temp: 2.15
+Average Ensemble Energy: 49.871304
+Ensemble Temp: 2.225
+Average Ensemble Energy: 101.17565
+Ensemble Temp: 2.3
+Average Ensemble Energy: 120.70261
+Ensemble Temp: 2.375
+Average Ensemble Energy: 145.82957
+
+Probability of move acceptance during MC cycle (dE>0): 0.060722777
+Probability of move acceptance during MC cycle: 0.19314035
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.25
+P(T2 -> T3)= 0.625
+P(T3 -> T4)= 0.95833333
+P(T4 -> T5)= 0.625
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 24************|
+(T0 -> T1)
+Delta: 8.8192771 dE: 488 dB: 0.018072289 Exp(-Delta): 0.0001478552 DECLINED
+(T2 -> T3)
+Delta: 1.1915338 dE: 76 dB: 0.015678077 Exp(-Delta): 0.303755 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: 4.9427918 dE: 360 dB: 0.013729977 Exp(-Delta): 0.0071346523 DECLINED
+(T1 -> T2)
+Delta: 6.3210983 dE: 376 dB: 0.016811432 Exp(-Delta): 0.0017979676 DECLINED
+(T3 -> T4)
+Delta: -4.4553004 dE: -304 dB: 0.014655594 Exp(-Delta): 86.082009 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 66.631579 dE: -844 dB: -0.078947368 Exp(-Delta): 1.1541784e-29 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -628.26667
+Ensemble Temp: 2.075
+Average Ensemble Energy: -23.8
+Ensemble Temp: 2.15
+Average Ensemble Energy: 54.373333
+Ensemble Temp: 2.225
+Average Ensemble Energy: 103.24
+Ensemble Temp: 2.3
+Average Ensemble Energy: 114.11333
+Ensemble Temp: 2.375
+Average Ensemble Energy: 148.14667
+
+Probability of move acceptance during MC cycle (dE>0): 0.060649785
+Probability of move acceptance during MC cycle: 0.19460003
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.24
+P(T2 -> T3)= 0.64
+P(T3 -> T4)= 0.96
+P(T4 -> T5)= 0.6
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 25************|
+(T0 -> T1)
+Delta: 10.843373 dE: 600 dB: 0.018072289 Exp(-Delta): 1.953362e-05 DECLINED
+(T2 -> T3)
+Delta: -2.5084923 dE: -160 dB: 0.015678077 Exp(-Delta): 12.286392 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: 1.9771167 dE: 144 dB: 0.013729977 Exp(-Delta): 0.13846791 DECLINED
+(T1 -> T2)
+Delta: 0.067245727 dE: 4 dB: 0.016811432 Exp(-Delta): 0.93496543 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: -0.17586712 dE: -12 dB: 0.014655594 Exp(-Delta): 1.1922796 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 70.736842 dE: -896 dB: -0.078947368 Exp(-Delta): 1.9027416e-31 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -628.1216
+Ensemble Temp: 2.075
+Average Ensemble Energy: -24.448
+Ensemble Temp: 2.15
+Average Ensemble Energy: 58.0032
+Ensemble Temp: 2.225
+Average Ensemble Energy: 97.6384
+Ensemble Temp: 2.3
+Average Ensemble Energy: 115.9488
+Ensemble Temp: 2.375
+Average Ensemble Energy: 150.2464
+
+Probability of move acceptance during MC cycle (dE>0): 0.061668202
+Probability of move acceptance during MC cycle: 0.19459364
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.26923077
+P(T2 -> T3)= 0.65384615
+P(T3 -> T4)= 0.96153846
+P(T4 -> T5)= 0.57692308
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 26************|
+(T0 -> T1)
+Delta: 9.7590361 dE: 540 dB: 0.018072289 Exp(-Delta): 5.7770278e-05 DECLINED
+(T2 -> T3)
+Delta: 3.3864646 dE: 216 dB: 0.015678077 Exp(-Delta): 0.033828062 DECLINED
+(T4 -> T5)
+Delta: -0.38443936 dE: -28 dB: 0.013729977 Exp(-Delta): 1.4687906 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -0.67245727 dE: -40 dB: 0.016811432 Exp(-Delta): 1.9590453 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.5241817 dE: 104 dB: 0.014655594 Exp(-Delta): 0.2177992 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 66.947368 dE: -848 dB: -0.078947368 Exp(-Delta): 8.4164184e-30 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -627.91385
+Ensemble Temp: 2.075
+Average Ensemble Energy: -24.326154
+Ensemble Temp: 2.15
+Average Ensemble Energy: 54.006154
+Ensemble Temp: 2.225
+Average Ensemble Energy: 99.883077
+Ensemble Temp: 2.3
+Average Ensemble Energy: 117.53231
+Ensemble Temp: 2.375
+Average Ensemble Energy: 152.14154
+
+Probability of move acceptance during MC cycle (dE>0): 0.057680536
+Probability of move acceptance during MC cycle: 0.18218844
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.2962963
+P(T2 -> T3)= 0.62962963
+P(T3 -> T4)= 0.96296296
+P(T4 -> T5)= 0.59259259
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 27************|
+(T0 -> T1)
+Delta: 10.481928 dE: 580 dB: 0.018072289 Exp(-Delta): 2.803862e-05 DECLINED
+(T2 -> T3)
+Delta: 3.0729031 dE: 196 dB: 0.015678077 Exp(-Delta): 0.046286587 DECLINED
+(T4 -> T5)
+Delta: -0.10983982 dE: -8 dB: 0.013729977 Exp(-Delta): 1.1160993 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 0.53796582 dE: 32 dB: 0.016811432 Exp(-Delta): 0.58393488 DECLINED
+(T3 -> T4)
+Delta: -1.406937 dE: -96 dB: 0.014655594 Exp(-Delta): 4.0834286 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 56.842105 dE: -720 dB: -0.078947368 Exp(-Delta): 2.0596212e-25 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -627.75704
+Ensemble Temp: 2.075
+Average Ensemble Energy: -24.918519
+Ensemble Temp: 2.15
+Average Ensemble Energy: 51.312593
+Ensemble Temp: 2.225
+Average Ensemble Energy: 103.33037
+Ensemble Temp: 2.3
+Average Ensemble Energy: 119.16444
+Ensemble Temp: 2.375
+Average Ensemble Energy: 152.30222
+
+Probability of move acceptance during MC cycle (dE>0): 0.058780796
+Probability of move acceptance during MC cycle: 0.18798283
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.28571429
+P(T2 -> T3)= 0.60714286
+P(T3 -> T4)= 0.96428571
+P(T4 -> T5)= 0.60714286
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 28************|
+(T0 -> T1)
+Delta: 10.120482 dE: 560 dB: 0.018072289 Exp(-Delta): 4.0246725e-05 DECLINED
+(T2 -> T3)
+Delta: 5.3932584 dE: 344 dB: 0.015678077 Exp(-Delta): 0.0045471327 DECLINED
+(T4 -> T5)
+Delta: -1.4828375 dE: -108 dB: 0.013729977 Exp(-Delta): 4.4054285 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -0.20173718 dE: -12 dB: 0.016811432 Exp(-Delta): 1.2235264 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: -1.2310699 dE: -84 dB: 0.014655594 Exp(-Delta): 3.4248917 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 72.315789 dE: -916 dB: -0.078947368 Exp(-Delta): 3.9233014e-32 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -627.61143
+Ensemble Temp: 2.075
+Average Ensemble Energy: -25.48
+Ensemble Temp: 2.15
+Average Ensemble Energy: 48.72
+Ensemble Temp: 2.225
+Average Ensemble Energy: 105.04
+Ensemble Temp: 2.3
+Average Ensemble Energy: 122.58286
+Ensemble Temp: 2.375
+Average Ensemble Energy: 152.70286
+
+Probability of move acceptance during MC cycle (dE>0): 0.061012234
+Probability of move acceptance during MC cycle: 0.19313829
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.31034483
+P(T2 -> T3)= 0.5862069
+P(T3 -> T4)= 0.96551724
+P(T4 -> T5)= 0.62068966
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 29************|
+(T0 -> T1)
+Delta: 12.361446 dE: 684 dB: 0.018072289 Exp(-Delta): 4.2804784e-06 DECLINED
+(T2 -> T3)
+Delta: 1.8186569 dE: 116 dB: 0.015678077 Exp(-Delta): 0.16224351 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: 1.4279176 dE: 104 dB: 0.013729977 Exp(-Delta): 0.23980777 DECLINED
+(T1 -> T2)
+Delta: 1.6138975 dE: 96 dB: 0.016811432 Exp(-Delta): 0.19911008 DECLINED
+(T3 -> T4)
+Delta: 0.52760137 dE: 36 dB: 0.014655594 Exp(-Delta): 0.59001851 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 63.473684 dE: -804 dB: -0.078947368 Exp(-Delta): 2.714746e-28 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -627.49793
+Ensemble Temp: 2.075
+Average Ensemble Energy: -25.169655
+Ensemble Temp: 2.15
+Average Ensemble Energy: 45.533793
+Ensemble Temp: 2.225
+Average Ensemble Energy: 106.74759
+Ensemble Temp: 2.3
+Average Ensemble Energy: 123.51448
+Ensemble Temp: 2.375
+Average Ensemble Energy: 154.41655
+
+Probability of move acceptance during MC cycle (dE>0): 0.062069621
+Probability of move acceptance during MC cycle: 0.19341665
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.3
+P(T2 -> T3)= 0.6
+P(T3 -> T4)= 0.96666667
+P(T4 -> T5)= 0.6
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 30************|
+(T0 -> T1)
+Delta: 9.8313253 dE: 544 dB: 0.018072289 Exp(-Delta): 5.3741486e-05 DECLINED
+(T2 -> T3)
+Delta: -0.62712307 dE: -40 dB: 0.015678077 Exp(-Delta): 1.8722166 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: 3.7345538 dE: 272 dB: 0.013729977 Exp(-Delta): 0.023883826 DECLINED
+(T1 -> T2)
+Delta: 3.4967778 dE: 208 dB: 0.016811432 Exp(-Delta): 0.030294842 DECLINED
+(T3 -> T4)
+Delta: -4.5139228 dE: -308 dB: 0.014655594 Exp(-Delta): 91.279188 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 59.684211 dE: -756 dB: -0.078947368 Exp(-Delta): 1.2008167e-26 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -627.30667
+Ensemble Temp: 2.075
+Average Ensemble Energy: -24.981333
+Ensemble Temp: 2.15
+Average Ensemble Energy: 49.333333
+Ensemble Temp: 2.225
+Average Ensemble Energy: 108.10667
+Ensemble Temp: 2.3
+Average Ensemble Energy: 117.68
+Ensemble Temp: 2.375
+Average Ensemble Energy: 155.98933
+
+Probability of move acceptance during MC cycle (dE>0): 0.06143561
+Probability of move acceptance during MC cycle: 0.19296836
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.29032258
+P(T2 -> T3)= 0.61290323
+P(T3 -> T4)= 0.96774194
+P(T4 -> T5)= 0.58064516
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 31************|
+(T0 -> T1)
+Delta: 12.144578 dE: 672 dB: 0.018072289 Exp(-Delta): 5.3171223e-06 DECLINED
+(T2 -> T3)
+Delta: -0.56441077 dE: -36 dB: 0.015678077 Exp(-Delta): 1.7584114 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: -0.49427918 dE: -36 dB: 0.013729977 Exp(-Delta): 1.6393162 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -0.60521154 dE: -36 dB: 0.016811432 Exp(-Delta): 1.8316396 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.3483146 dE: 92 dB: 0.014655594 Exp(-Delta): 0.25967755 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 63.157895 dE: -800 dB: -0.078947368 Exp(-Delta): 3.7228439e-28 DECLINED
+
+Replicas Exchanged: 4
+
+Ensemble Temp: 2
+Average Ensemble Energy: -627.18968
+Ensemble Temp: 2.075
+Average Ensemble Energy: -24.701935
+Ensemble Temp: 2.15
+Average Ensemble Energy: 52.335484
+Ensemble Temp: 2.225
+Average Ensemble Energy: 103.28258
+Ensemble Temp: 2.3
+Average Ensemble Energy: 119.12258
+Ensemble Temp: 2.375
+Average Ensemble Energy: 157.47097
+
+Probability of move acceptance during MC cycle (dE>0): 0.056404304
+Probability of move acceptance during MC cycle: 0.17822553
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.3125
+P(T2 -> T3)= 0.625
+P(T3 -> T4)= 0.96875
+P(T4 -> T5)= 0.59375
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 32************|
+(T0 -> T1)
+Delta: 9.686747 dE: 536 dB: 0.018072289 Exp(-Delta): 6.2101092e-05 DECLINED
+(T2 -> T3)
+Delta: 4.0763 dE: 260 dB: 0.015678077 Exp(-Delta): 0.01697014 DECLINED
+(T4 -> T5)
+Delta: -0.38443936 dE: -28 dB: 0.013729977 Exp(-Delta): 1.4687906 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 0.60521154 dE: 36 dB: 0.016811432 Exp(-Delta): 0.54595892 DECLINED
+(T3 -> T4)
+Delta: 0 dE: 0 dB: 0.014655594 Exp(-Delta): 1 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 67.894737 dE: -860 dB: -0.078947368 Exp(-Delta): 3.2635513e-30 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -627.08
+Ensemble Temp: 2.075
+Average Ensemble Energy: -25.6
+Ensemble Temp: 2.15
+Average Ensemble Energy: 50.065
+Ensemble Temp: 2.225
+Average Ensemble Energy: 105.735
+Ensemble Temp: 2.3
+Average Ensemble Energy: 120.295
+Ensemble Temp: 2.375
+Average Ensemble Energy: 157.71
+
+Probability of move acceptance during MC cycle (dE>0): 0.057531578
+Probability of move acceptance during MC cycle: 0.18367625
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.3030303
+P(T2 -> T3)= 0.60606061
+P(T3 -> T4)= 0.96969697
+P(T4 -> T5)= 0.60606061
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 33************|
+(T0 -> T1)
+Delta: 11.421687 dE: 632 dB: 0.018072289 Exp(-Delta): 1.0955305e-05 DECLINED
+(T2 -> T3)
+Delta: 1.9440815 dE: 124 dB: 0.015678077 Exp(-Delta): 0.14311861 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: -1.0983982 dE: -80 dB: 0.013729977 Exp(-Delta): 2.9993577 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 2.2863547 dE: 136 dB: 0.016811432 Exp(-Delta): 0.10163628 DECLINED
+(T3 -> T4)
+Delta: 0.41035662 dE: 28 dB: 0.014655594 Exp(-Delta): 0.66341362 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 59.368421 dE: -752 dB: -0.078947368 Exp(-Delta): 1.6467298e-26 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -626.97697
+Ensemble Temp: 2.075
+Average Ensemble Energy: -26.366061
+Ensemble Temp: 2.15
+Average Ensemble Energy: 48.019394
+Ensemble Temp: 2.225
+Average Ensemble Energy: 107.25818
+Ensemble Temp: 2.3
+Average Ensemble Energy: 122.72
+Ensemble Temp: 2.375
+Average Ensemble Energy: 157.62424
+
+Probability of move acceptance during MC cycle (dE>0): 0.059646236
+Probability of move acceptance during MC cycle: 0.19095067
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.29411765
+P(T2 -> T3)= 0.61764706
+P(T3 -> T4)= 0.97058824
+P(T4 -> T5)= 0.61764706
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 34************|
+(T0 -> T1)
+Delta: 9.1084337 dE: 504 dB: 0.018072289 Exp(-Delta): 0.00011072801 DECLINED
+(T2 -> T3)
+Delta: -0.062712307 dE: -4 dB: 0.015678077 Exp(-Delta): 1.0647205 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: 3.3501144 dE: 244 dB: 0.013729977 Exp(-Delta): 0.03508034 DECLINED
+(T1 -> T2)
+Delta: 4.9761838 dE: 296 dB: 0.016811432 Exp(-Delta): 0.0069003454 DECLINED
+(T3 -> T4)
+Delta: -3.5759648 dE: -244 dB: 0.014655594 Exp(-Delta): 35.729077 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 63.473684 dE: -804 dB: -0.078947368 Exp(-Delta): 2.714746e-28 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -626.84235
+Ensemble Temp: 2.075
+Average Ensemble Energy: -27.2
+Ensemble Temp: 2.15
+Average Ensemble Energy: 51.294118
+Ensemble Temp: 2.225
+Average Ensemble Energy: 108.48
+Ensemble Temp: 2.3
+Average Ensemble Energy: 118.00941
+Ensemble Temp: 2.375
+Average Ensemble Energy: 158.91294
+
+Probability of move acceptance during MC cycle (dE>0): 0.059972372
+Probability of move acceptance during MC cycle: 0.19336731
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.28571429
+P(T2 -> T3)= 0.62857143
+P(T3 -> T4)= 0.97142857
+P(T4 -> T5)= 0.6
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 35************|
+(T0 -> T1)
+Delta: 12.289157 dE: 680 dB: 0.018072289 Exp(-Delta): 4.6013693e-06 DECLINED
+(T2 -> T3)
+Delta: -0.62712307 dE: -40 dB: 0.015678077 Exp(-Delta): 1.8722166 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: 0.71395881 dE: 52 dB: 0.013729977 Exp(-Delta): 0.48970172 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -0.26898291 dE: -16 dB: 0.016811432 Exp(-Delta): 1.3086328 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.9931607 dE: 136 dB: 0.014655594 Exp(-Delta): 0.13626405 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 62.210526 dE: -788 dB: -0.078947368 Exp(-Delta): 9.6008947e-28 DECLINED
+
+Replicas Exchanged: 4
+
+Ensemble Temp: 2
+Average Ensemble Energy: -626.77943
+Ensemble Temp: 2.075
+Average Ensemble Energy: -27.849143
+Ensemble Temp: 2.15
+Average Ensemble Energy: 53.906286
+Ensemble Temp: 2.225
+Average Ensemble Energy: 104.39314
+Ensemble Temp: 2.3
+Average Ensemble Energy: 119.232
+Ensemble Temp: 2.375
+Average Ensemble Energy: 160.096
+
+Probability of move acceptance during MC cycle (dE>0): 0.057403189
+Probability of move acceptance during MC cycle: 0.18045975
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.30555556
+P(T2 -> T3)= 0.63888889
+P(T3 -> T4)= 0.97222222
+P(T4 -> T5)= 0.61111111
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 36************|
+(T0 -> T1)
+Delta: 9.0361446 dE: 500 dB: 0.018072289 Exp(-Delta): 0.00011902886 DECLINED
+(T2 -> T3)
+Delta: 5.6441077 dE: 360 dB: 0.015678077 Exp(-Delta): 0.0035383044 DECLINED
+(T4 -> T5)
+Delta: -1.3180778 dE: -96 dB: 0.013729977 Exp(-Delta): 3.7362327 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -0.20173718 dE: -12 dB: 0.016811432 Exp(-Delta): 1.2235264 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: -0.93795799 dE: -64 dB: 0.014655594 Exp(-Delta): 2.5547592 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 69.473684 dE: -880 dB: -0.078947368 Exp(-Delta): 6.7291825e-31 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -626.68444
+Ensemble Temp: 2.075
+Average Ensemble Energy: -27.702222
+Ensemble Temp: 2.15
+Average Ensemble Energy: 50.835556
+Ensemble Temp: 2.225
+Average Ensemble Energy: 106.59111
+Ensemble Temp: 2.3
+Average Ensemble Energy: 120.30222
+Ensemble Temp: 2.375
+Average Ensemble Energy: 160.17333
+
+Probability of move acceptance during MC cycle (dE>0): 0.057556447
+Probability of move acceptance during MC cycle: 0.18383114
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.32432432
+P(T2 -> T3)= 0.62162162
+P(T3 -> T4)= 0.97297297
+P(T4 -> T5)= 0.62162162
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 37************|
+(T0 -> T1)
+Delta: 10.843373 dE: 600 dB: 0.018072289 Exp(-Delta): 1.953362e-05 DECLINED
+(T2 -> T3)
+Delta: 1.8813692 dE: 120 dB: 0.015678077 Exp(-Delta): 0.15238132 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: -1.4828375 dE: -108 dB: 0.013729977 Exp(-Delta): 4.4054285 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 2.6898291 dE: 160 dB: 0.016811432 Exp(-Delta): 0.067892542 DECLINED
+(T3 -> T4)
+Delta: 1.4655594 dE: 100 dB: 0.014655594 Exp(-Delta): 0.23094877 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 66.947368 dE: -848 dB: -0.078947368 Exp(-Delta): 8.4164184e-30 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -626.62054
+Ensemble Temp: 2.075
+Average Ensemble Energy: -28.380541
+Ensemble Temp: 2.15
+Average Ensemble Energy: 48.968649
+Ensemble Temp: 2.225
+Average Ensemble Energy: 107.89189
+Ensemble Temp: 2.3
+Average Ensemble Energy: 122.56
+Ensemble Temp: 2.375
+Average Ensemble Energy: 160.08649
+
+Probability of move acceptance during MC cycle (dE>0): 0.060307751
+Probability of move acceptance during MC cycle: 0.1924988
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.31578947
+P(T2 -> T3)= 0.63157895
+P(T3 -> T4)= 0.97368421
+P(T4 -> T5)= 0.63157895
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 38************|
+(T0 -> T1)
+Delta: 8.313253 dE: 460 dB: 0.018072289 Exp(-Delta): 0.00024524496 DECLINED
+(T2 -> T3)
+Delta: 1.4423831 dE: 92 dB: 0.015678077 Exp(-Delta): 0.23636382 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: 4.3935927 dE: 320 dB: 0.013729977 Exp(-Delta): 0.012356257 DECLINED
+(T1 -> T2)
+Delta: 6.3210983 dE: 376 dB: 0.016811432 Exp(-Delta): 0.0017979676 DECLINED
+(T3 -> T4)
+Delta: -3.5759648 dE: -244 dB: 0.014655594 Exp(-Delta): 35.729077 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 64.736842 dE: -820 dB: -0.078947368 Exp(-Delta): 7.6762074e-29 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -626.50947
+Ensemble Temp: 2.075
+Average Ensemble Energy: -29.12
+Ensemble Temp: 2.15
+Average Ensemble Energy: 51.810526
+Ensemble Temp: 2.225
+Average Ensemble Energy: 109.00632
+Ensemble Temp: 2.3
+Average Ensemble Energy: 118.41263
+Ensemble Temp: 2.375
+Average Ensemble Energy: 161.19158
+
+Probability of move acceptance during MC cycle (dE>0): 0.060037405
+Probability of move acceptance during MC cycle: 0.19308271
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.30769231
+P(T2 -> T3)= 0.64102564
+P(T3 -> T4)= 0.97435897
+P(T4 -> T5)= 0.61538462
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 39************|
+(T0 -> T1)
+Delta: 10.554217 dE: 584 dB: 0.018072289 Exp(-Delta): 2.6083259e-05 DECLINED
+(T2 -> T3)
+Delta: -2.3830677 dE: -152 dB: 0.015678077 Exp(-Delta): 10.8381 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: 1.9221968 dE: 140 dB: 0.013729977 Exp(-Delta): 0.14628525 DECLINED
+(T1 -> T2)
+Delta: 0 dE: 0 dB: 0.016811432 Exp(-Delta): 1 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: -0.2344895 dE: -16 dB: 0.014655594 Exp(-Delta): 1.2642632 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 67.894737 dE: -860 dB: -0.078947368 Exp(-Delta): 3.2635513e-30 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -626.44513
+Ensemble Temp: 2.075
+Average Ensemble Energy: -29.735385
+Ensemble Temp: 2.15
+Average Ensemble Energy: 54.190769
+Ensemble Temp: 2.225
+Average Ensemble Energy: 105.26359
+Ensemble Temp: 2.3
+Average Ensemble Energy: 119.46256
+Ensemble Temp: 2.375
+Average Ensemble Energy: 162.23179
+
+Probability of move acceptance during MC cycle (dE>0): 0.060115424
+Probability of move acceptance during MC cycle: 0.19139472
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.325
+P(T2 -> T3)= 0.65
+P(T3 -> T4)= 0.975
+P(T4 -> T5)= 0.6
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 40************|
+(T0 -> T1)
+Delta: 9.9759036 dE: 552 dB: 0.018072289 Exp(-Delta): 4.6507191e-05 DECLINED
+(T2 -> T3)
+Delta: 4.2017246 dE: 268 dB: 0.015678077 Exp(-Delta): 0.014969738 DECLINED
+(T4 -> T5)
+Delta: -0.38443936 dE: -28 dB: 0.013729977 Exp(-Delta): 1.4687906 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -0.40347436 dE: -24 dB: 0.016811432 Exp(-Delta): 1.4970169 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.2310699 dE: 84 dB: 0.014655594 Exp(-Delta): 0.29198003 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 71.684211 dE: -908 dB: -0.078947368 Exp(-Delta): 7.3780727e-32 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -626.384
+Ensemble Temp: 2.075
+Average Ensemble Energy: -29.544
+Ensemble Temp: 2.15
+Average Ensemble Energy: 51.444
+Ensemble Temp: 2.225
+Average Ensemble Energy: 106.568
+Ensemble Temp: 2.3
+Average Ensemble Energy: 120.432
+Ensemble Temp: 2.375
+Average Ensemble Energy: 163.24
+
+Probability of move acceptance during MC cycle (dE>0): 0.056996528
+Probability of move acceptance during MC cycle: 0.18075857
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.34146341
+P(T2 -> T3)= 0.63414634
+P(T3 -> T4)= 0.97560976
+P(T4 -> T5)= 0.6097561
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 41************|
+(T0 -> T1)
+Delta: 12.216867 dE: 676 dB: 0.018072289 Exp(-Delta): 4.9463162e-06 DECLINED
+(T2 -> T3)
+Delta: 1.9440815 dE: 124 dB: 0.015678077 Exp(-Delta): 0.14311861 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: -0.93363844 dE: -68 dB: 0.013729977 Exp(-Delta): 2.5437476 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 2.1518633 dE: 128 dB: 0.016811432 Exp(-Delta): 0.11626732 DECLINED
+(T3 -> T4)
+Delta: 0.58622374 dE: 40 dB: 0.014655594 Exp(-Delta): 0.55642452 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 62.210526 dE: -788 dB: -0.078947368 Exp(-Delta): 9.6008947e-28 DECLINED
+
+Replicas Exchanged: 3
+
+Ensemble Temp: 2
+Average Ensemble Energy: -626.34927
+Ensemble Temp: 2.075
+Average Ensemble Energy: -30.052683
+Ensemble Temp: 2.15
+Average Ensemble Energy: 49.767805
+Ensemble Temp: 2.225
+Average Ensemble Energy: 108.65561
+Ensemble Temp: 2.3
+Average Ensemble Energy: 121.48683
+Ensemble Temp: 2.375
+Average Ensemble Energy: 163.05171
+
+Probability of move acceptance during MC cycle (dE>0): 0.057217328
+Probability of move acceptance during MC cycle: 0.182254
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.33333333
+P(T2 -> T3)= 0.64285714
+P(T3 -> T4)= 0.97619048
+P(T4 -> T5)= 0.61904762
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 42************|
+(T0 -> T1)
+Delta: 9.1807229 dE: 508 dB: 0.018072289 Exp(-Delta): 0.00010300604 DECLINED
+(T2 -> T3)
+Delta: 0.062712307 dE: 4 dB: 0.015678077 Exp(-Delta): 0.93921364 ACCEPTED (Delta > 0)
+(T4 -> T5)
+Delta: 2.9656751 dE: 216 dB: 0.013729977 Exp(-Delta): 0.051525675 DECLINED
+(T1 -> T2)
+Delta: 4.3709723 dE: 260 dB: 0.016811432 Exp(-Delta): 0.012638946 DECLINED
+(T3 -> T4)
+Delta: -2.813874 dE: -192 dB: 0.014655594 Exp(-Delta): 16.674389 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 62.210526 dE: -788 dB: -0.078947368 Exp(-Delta): 9.6008947e-28 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -626.25524
+Ensemble Temp: 2.075
+Average Ensemble Energy: -30.63619
+Ensemble Temp: 2.15
+Average Ensemble Energy: 53.325714
+Ensemble Temp: 2.225
+Average Ensemble Energy: 109.58095
+Ensemble Temp: 2.3
+Average Ensemble Energy: 117.68381
+Ensemble Temp: 2.375
+Average Ensemble Energy: 163.08952
+
+Probability of move acceptance during MC cycle (dE>0): 0.057317795
+Probability of move acceptance during MC cycle: 0.17650661
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.3255814
+P(T2 -> T3)= 0.65116279
+P(T3 -> T4)= 0.97674419
+P(T4 -> T5)= 0.60465116
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 43************|
+(T0 -> T1)
+Delta: 9.8313253 dE: 544 dB: 0.018072289 Exp(-Delta): 5.3741486e-05 DECLINED
+(T2 -> T3)
+Delta: -11.664489 dE: -744 dB: 0.015678077 Exp(-Delta): 116365.24 ACCEPTED (Delta < 0)
+(T4 -> T5)
+Delta: -2.5812357 dE: -188 dB: 0.013729977 Exp(-Delta): 13.213456 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: -4.1019894 dE: -244 dB: 0.016811432 Exp(-Delta): 60.460445 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: -2.9897411 dE: -204 dB: 0.014655594 Exp(-Delta): 19.880534 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 81.157895 dE: -1028 dB: -0.078947368 Exp(-Delta): 5.6698837e-36 DECLINED
+
+Replicas Exchanged: 4
+
+Ensemble Temp: 2
+Average Ensemble Energy: -627.05116
+Ensemble Temp: 2.075
+Average Ensemble Energy: -32.818605
+Ensemble Temp: 2.15
+Average Ensemble Energy: 58.79814
+Ensemble Temp: 2.225
+Average Ensemble Energy: 101.63349
+Ensemble Temp: 2.3
+Average Ensemble Energy: 120.83721
+Ensemble Temp: 2.375
+Average Ensemble Energy: 161.35442
+
+Probability of move acceptance during MC cycle (dE>0): 0.05521358
+Probability of move acceptance during MC cycle: 0.17049937
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.34090909
+P(T2 -> T3)= 0.65909091
+P(T3 -> T4)= 0.97727273
+P(T4 -> T5)= 0.61363636
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 44************|
+(T0 -> T1)
+Delta: 6.4337349 dE: 356 dB: 0.018072289 Exp(-Delta): 0.0016064397 DECLINED
+(T2 -> T3)
+Delta: 6.0830938 dE: 388 dB: 0.015678077 Exp(-Delta): 0.0022811084 DECLINED
+(T4 -> T5)
+Delta: -0.49427918 dE: -36 dB: 0.013729977 Exp(-Delta): 1.6393162 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 2.4208462 dE: 144 dB: 0.016811432 Exp(-Delta): 0.088846406 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.5241817 dE: 104 dB: 0.014655594 Exp(-Delta): 0.2177992 DECLINED
+(T5 -> T0)
+Delta: 81.157895 dE: -1028 dB: -0.078947368 Exp(-Delta): 5.6698837e-36 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -628.00727
+Ensemble Temp: 2.075
+Average Ensemble Energy: -39.054545
+Ensemble Temp: 2.15
+Average Ensemble Energy: 54.501818
+Ensemble Temp: 2.225
+Average Ensemble Energy: 104.02909
+Ensemble Temp: 2.3
+Average Ensemble Energy: 125.89455
+Ensemble Temp: 2.375
+Average Ensemble Energy: 164.20364
+
+Probability of move acceptance during MC cycle (dE>0): 0.054561286
+Probability of move acceptance during MC cycle: 0.16851505
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.35555556
+P(T2 -> T3)= 0.64444444
+P(T3 -> T4)= 0.95555556
+P(T4 -> T5)= 0.62222222
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 45************|
+(T0 -> T1)
+Delta: 9.0361446 dE: 500 dB: 0.018072289 Exp(-Delta): 0.00011902886 DECLINED
+(T2 -> T3)
+Delta: 9.0305722 dE: 576 dB: 0.015678077 Exp(-Delta): 0.00011969398 DECLINED
+(T4 -> T5)
+Delta: 0.6590389 dE: 48 dB: 0.013729977 Exp(-Delta): 0.51734832 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.2950406 dE: -196 dB: 0.016811432 Exp(-Delta): 26.97851 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.9345383 dE: 132 dB: 0.014655594 Exp(-Delta): 0.14449096 DECLINED
+(T5 -> T0)
+Delta: 76.105263 dE: -964 dB: -0.078947368 Exp(-Delta): 8.8696027e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -628.88533
+Ensemble Temp: 2.075
+Average Ensemble Energy: -41.724444
+Ensemble Temp: 2.15
+Average Ensemble Energy: 46.616889
+Ensemble Temp: 2.225
+Average Ensemble Energy: 106.00178
+Ensemble Temp: 2.3
+Average Ensemble Energy: 129.53956
+Ensemble Temp: 2.375
+Average Ensemble Energy: 168.34133
+
+Probability of move acceptance during MC cycle (dE>0): 0.05485461
+Probability of move acceptance during MC cycle: 0.16986141
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.36956522
+P(T2 -> T3)= 0.63043478
+P(T3 -> T4)= 0.93478261
+P(T4 -> T5)= 0.63043478
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 46************|
+(T0 -> T1)
+Delta: 7.5180723 dE: 416 dB: 0.018072289 Exp(-Delta): 0.00054317865 DECLINED
+(T2 -> T3)
+Delta: 5.2051215 dE: 332 dB: 0.015678077 Exp(-Delta): 0.0054883835 DECLINED
+(T4 -> T5)
+Delta: -0.60411899 dE: -44 dB: 0.013729977 Exp(-Delta): 1.8296396 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.1431774 dE: 68 dB: 0.016811432 Exp(-Delta): 0.31880445 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.8172936 dE: 124 dB: 0.014655594 Exp(-Delta): 0.16246485 DECLINED
+(T5 -> T0)
+Delta: 77.684211 dE: -984 dB: -0.078947368 Exp(-Delta): 1.8288414e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -629.76
+Ensemble Temp: 2.075
+Average Ensemble Energy: -47.443478
+Ensemble Temp: 2.15
+Average Ensemble Energy: 42.685217
+Ensemble Temp: 2.225
+Average Ensemble Energy: 107.8087
+Ensemble Temp: 2.3
+Average Ensemble Energy: 134.15652
+Ensemble Temp: 2.375
+Average Ensemble Energy: 170.86957
+
+Probability of move acceptance during MC cycle (dE>0): 0.054194644
+Probability of move acceptance during MC cycle: 0.16764246
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.38297872
+P(T2 -> T3)= 0.61702128
+P(T3 -> T4)= 0.91489362
+P(T4 -> T5)= 0.63829787
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 47************|
+(T0 -> T1)
+Delta: 8.6746988 dE: 480 dB: 0.018072289 Exp(-Delta): 0.00017085441 DECLINED
+(T2 -> T3)
+Delta: 10.472955 dE: 668 dB: 0.015678077 Exp(-Delta): 2.8291326e-05 DECLINED
+(T4 -> T5)
+Delta: 0.43935927 dE: 32 dB: 0.013729977 Exp(-Delta): 0.64444921 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.2277949 dE: -192 dB: 0.016811432 Exp(-Delta): 25.223974 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.5793845 dE: 176 dB: 0.014655594 Exp(-Delta): 0.07582066 DECLINED
+(T5 -> T0)
+Delta: 86.842105 dE: -1100 dB: -0.078947368 Exp(-Delta): 1.9273158e-38 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -630.61106
+Ensemble Temp: 2.075
+Average Ensemble Energy: -49.834894
+Ensemble Temp: 2.15
+Average Ensemble Energy: 35.325957
+Ensemble Temp: 2.225
+Average Ensemble Energy: 109.64426
+Ensemble Temp: 2.3
+Average Ensemble Energy: 137.53872
+Ensemble Temp: 2.375
+Average Ensemble Energy: 174.73702
+
+Probability of move acceptance during MC cycle (dE>0): 0.054753524
+Probability of move acceptance during MC cycle: 0.16986014
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.39583333
+P(T2 -> T3)= 0.60416667
+P(T3 -> T4)= 0.89583333
+P(T4 -> T5)= 0.64583333
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 48************|
+(T0 -> T1)
+Delta: 7.373494 dE: 408 dB: 0.018072289 Exp(-Delta): 0.00062767128 DECLINED
+(T2 -> T3)
+Delta: 5.0796969 dE: 324 dB: 0.015678077 Exp(-Delta): 0.0062217946 DECLINED
+(T4 -> T5)
+Delta: -0.76887872 dE: -56 dB: 0.013729977 Exp(-Delta): 2.1573459 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.5466517 dE: 92 dB: 0.016811432 Exp(-Delta): 0.21295983 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.2896922 dE: 88 dB: 0.014655594 Exp(-Delta): 0.27535552 DECLINED
+(T5 -> T0)
+Delta: 76.421053 dE: -968 dB: -0.078947368 Exp(-Delta): 6.4678292e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -631.4
+Ensemble Temp: 2.075
+Average Ensemble Energy: -55.14
+Ensemble Temp: 2.15
+Average Ensemble Energy: 31.59
+Ensemble Temp: 2.225
+Average Ensemble Energy: 111.32667
+Ensemble Temp: 2.3
+Average Ensemble Energy: 141.8
+Ensemble Temp: 2.375
+Average Ensemble Energy: 177.01667
+
+Probability of move acceptance during MC cycle (dE>0): 0.054218914
+Probability of move acceptance during MC cycle: 0.16785554
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.40816327
+P(T2 -> T3)= 0.59183673
+P(T3 -> T4)= 0.87755102
+P(T4 -> T5)= 0.65306122
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 49************|
+(T0 -> T1)
+Delta: 9.3253012 dE: 516 dB: 0.018072289 Exp(-Delta): 8.9140106e-05 DECLINED
+(T2 -> T3)
+Delta: 9.7831199 dE: 624 dB: 0.015678077 Exp(-Delta): 5.6395571e-05 DECLINED
+(T4 -> T5)
+Delta: 0.54919908 dE: 40 dB: 0.013729977 Exp(-Delta): 0.57741208 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -4.0347436 dE: -240 dB: 0.016811432 Exp(-Delta): 56.528426 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.875916 dE: 128 dB: 0.014655594 Exp(-Delta): 0.15321456 DECLINED
+(T5 -> T0)
+Delta: 78 dE: -988 dB: -0.078947368 Exp(-Delta): 1.3336148e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -632.13714
+Ensemble Temp: 2.075
+Average Ensemble Energy: -57.022041
+Ensemble Temp: 2.15
+Average Ensemble Energy: 24.793469
+Ensemble Temp: 2.225
+Average Ensemble Energy: 113.00898
+Ensemble Temp: 2.3
+Average Ensemble Energy: 144.84245
+Ensemble Temp: 2.375
+Average Ensemble Energy: 180.56816
+
+Probability of move acceptance during MC cycle (dE>0): 0.054671323
+Probability of move acceptance during MC cycle: 0.16935736
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.42
+P(T2 -> T3)= 0.58
+P(T3 -> T4)= 0.86
+P(T4 -> T5)= 0.66
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 50************|
+(T0 -> T1)
+Delta: 6.6506024 dE: 368 dB: 0.018072289 Exp(-Delta): 0.0012932428 DECLINED
+(T2 -> T3)
+Delta: 6.3966553 dE: 408 dB: 0.015678077 Exp(-Delta): 0.0016671239 DECLINED
+(T4 -> T5)
+Delta: -0.43935927 dE: -32 dB: 0.013729977 Exp(-Delta): 1.5517127 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.4121603 dE: 84 dB: 0.016811432 Exp(-Delta): 0.24361644 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.875916 dE: 128 dB: 0.014655594 Exp(-Delta): 0.15321456 DECLINED
+(T5 -> T0)
+Delta: 80.526316 dE: -1020 dB: -0.078947368 Exp(-Delta): 1.0662656e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -632.8768
+Ensemble Temp: 2.075
+Average Ensemble Energy: -62.016
+Ensemble Temp: 2.15
+Average Ensemble Energy: 21.6096
+Ensemble Temp: 2.225
+Average Ensemble Energy: 114.5792
+Ensemble Temp: 2.3
+Average Ensemble Energy: 148.8064
+Ensemble Temp: 2.375
+Average Ensemble Energy: 182.688
+
+Probability of move acceptance during MC cycle (dE>0): 0.054343957
+Probability of move acceptance during MC cycle: 0.16803747
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.43137255
+P(T2 -> T3)= 0.56862745
+P(T3 -> T4)= 0.84313725
+P(T4 -> T5)= 0.66666667
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 51************|
+(T0 -> T1)
+Delta: 9.3253012 dE: 516 dB: 0.018072289 Exp(-Delta): 8.9140106e-05 DECLINED
+(T2 -> T3)
+Delta: 8.4034492 dE: 536 dB: 0.015678077 Exp(-Delta): 0.00022409305 DECLINED
+(T4 -> T5)
+Delta: 0.49427918 dE: 36 dB: 0.013729977 Exp(-Delta): 0.61001046 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.0260577 dE: -180 dB: 0.016811432 Exp(-Delta): 20.615799 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.4621397 dE: 168 dB: 0.014655594 Exp(-Delta): 0.08525234 DECLINED
+(T5 -> T0)
+Delta: 79.263158 dE: -1004 dB: -0.078947368 Exp(-Delta): 3.7709251e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -633.5749
+Ensemble Temp: 2.075
+Average Ensemble Energy: -63.880784
+Ensemble Temp: 2.15
+Average Ensemble Energy: 15.303529
+Ensemble Temp: 2.225
+Average Ensemble Energy: 116.08784
+Ensemble Temp: 2.3
+Average Ensemble Energy: 151.58588
+Ensemble Temp: 2.375
+Average Ensemble Energy: 185.97333
+
+Probability of move acceptance during MC cycle (dE>0): 0.054440906
+Probability of move acceptance during MC cycle: 0.16925375
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.44230769
+P(T2 -> T3)= 0.55769231
+P(T3 -> T4)= 0.82692308
+P(T4 -> T5)= 0.67307692
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 52************|
+(T0 -> T1)
+Delta: 7.2289157 dE: 400 dB: 0.018072289 Exp(-Delta): 0.00072530691 DECLINED
+(T2 -> T3)
+Delta: 5.3932584 dE: 344 dB: 0.015678077 Exp(-Delta): 0.0045471327 DECLINED
+(T4 -> T5)
+Delta: -0.6590389 dE: -48 dB: 0.013729977 Exp(-Delta): 1.9329337 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.6811432 dE: 100 dB: 0.016811432 Exp(-Delta): 0.18616104 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.4655594 dE: 100 dB: 0.014655594 Exp(-Delta): 0.23094877 DECLINED
+(T5 -> T0)
+Delta: 78.315789 dE: -992 dB: -0.078947368 Exp(-Delta): 9.724892e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -634.25846
+Ensemble Temp: 2.075
+Average Ensemble Energy: -68.526154
+Ensemble Temp: 2.15
+Average Ensemble Energy: 12.227692
+Ensemble Temp: 2.225
+Average Ensemble Energy: 117.51385
+Ensemble Temp: 2.3
+Average Ensemble Energy: 155.25538
+Ensemble Temp: 2.375
+Average Ensemble Energy: 187.87385
+
+Probability of move acceptance during MC cycle (dE>0): 0.054136197
+Probability of move acceptance during MC cycle: 0.1675628
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.45283019
+P(T2 -> T3)= 0.54716981
+P(T3 -> T4)= 0.81132075
+P(T4 -> T5)= 0.67924528
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 53************|
+(T0 -> T1)
+Delta: 9.0361446 dE: 500 dB: 0.018072289 Exp(-Delta): 0.00011902886 DECLINED
+(T2 -> T3)
+Delta: 11.037366 dE: 704 dB: 0.015678077 Exp(-Delta): 1.6089139e-05 DECLINED
+(T4 -> T5)
+Delta: 0.60411899 dE: 44 dB: 0.013729977 Exp(-Delta): 0.54655573 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -4.0347436 dE: -240 dB: 0.016811432 Exp(-Delta): 56.528426 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.0517831 dE: 140 dB: 0.014655594 Exp(-Delta): 0.12850556 DECLINED
+(T5 -> T0)
+Delta: 83.684211 dE: -1060 dB: -0.078947368 Exp(-Delta): 4.5332445e-37 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -634.91019
+Ensemble Temp: 2.075
+Average Ensemble Energy: -70.049811
+Ensemble Temp: 2.15
+Average Ensemble Energy: 6.2732075
+Ensemble Temp: 2.225
+Average Ensemble Energy: 118.97962
+Ensemble Temp: 2.3
+Average Ensemble Energy: 157.84453
+Ensemble Temp: 2.375
+Average Ensemble Energy: 190.98566
+
+Probability of move acceptance during MC cycle (dE>0): 0.054856895
+Probability of move acceptance during MC cycle: 0.16994015
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.46296296
+P(T2 -> T3)= 0.53703704
+P(T3 -> T4)= 0.7962963
+P(T4 -> T5)= 0.68518519
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 54************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 4.89156 dE: 312 dB: 0.015678077 Exp(-Delta): 0.0075096984 DECLINED
+(T4 -> T5)
+Delta: -0.71395881 dE: -52 dB: 0.013729977 Exp(-Delta): 2.0420594 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.0759316 dE: 64 dB: 0.016811432 Exp(-Delta): 0.34097994 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.6414265 dE: 112 dB: 0.014655594 Exp(-Delta): 0.19370353 DECLINED
+(T5 -> T0)
+Delta: 75.789474 dE: -960 dB: -0.078947368 Exp(-Delta): 1.2163254e-33 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -635.53185
+Ensemble Temp: 2.075
+Average Ensemble Energy: -74.382222
+Ensemble Temp: 2.15
+Average Ensemble Energy: 3.7511111
+Ensemble Temp: 2.225
+Average Ensemble Energy: 120.28148
+Ensemble Temp: 2.3
+Average Ensemble Energy: 161.24741
+Ensemble Temp: 2.375
+Average Ensemble Energy: 192.70815
+
+Probability of move acceptance during MC cycle (dE>0): 0.054536987
+Probability of move acceptance during MC cycle: 0.16834631
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.47272727
+P(T2 -> T3)= 0.52727273
+P(T3 -> T4)= 0.78181818
+P(T4 -> T5)= 0.69090909
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 55************|
+(T0 -> T1)
+Delta: 9.253012 dE: 512 dB: 0.018072289 Exp(-Delta): 9.5822595e-05 DECLINED
+(T2 -> T3)
+Delta: 9.2814215 dE: 592 dB: 0.015678077 Exp(-Delta): 9.3138635e-05 DECLINED
+(T4 -> T5)
+Delta: 0.38443936 dE: 28 dB: 0.013729977 Exp(-Delta): 0.68083223 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.5640235 dE: -212 dB: 0.016811432 Exp(-Delta): 35.304963 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.4035173 dE: 164 dB: 0.014655594 Exp(-Delta): 0.090399428 DECLINED
+(T5 -> T0)
+Delta: 81.157895 dE: -1028 dB: -0.078947368 Exp(-Delta): 5.6698837e-36 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -636.13091
+Ensemble Temp: 2.075
+Average Ensemble Energy: -75.889455
+Ensemble Temp: 2.15
+Average Ensemble Energy: -1.7978182
+Ensemble Temp: 2.225
+Average Ensemble Energy: 121.59418
+Ensemble Temp: 2.3
+Average Ensemble Energy: 163.616
+Ensemble Temp: 2.375
+Average Ensemble Energy: 195.584
+
+Probability of move acceptance during MC cycle (dE>0): 0.054567721
+Probability of move acceptance during MC cycle: 0.16948783
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.48214286
+P(T2 -> T3)= 0.51785714
+P(T3 -> T4)= 0.76785714
+P(T4 -> T5)= 0.69642857
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 56************|
+(T0 -> T1)
+Delta: 6.4337349 dE: 356 dB: 0.018072289 Exp(-Delta): 0.0016064397 DECLINED
+(T2 -> T3)
+Delta: 6.4593677 dE: 412 dB: 0.015678077 Exp(-Delta): 0.0015657855 DECLINED
+(T4 -> T5)
+Delta: -0.49427918 dE: -36 dB: 0.013729977 Exp(-Delta): 1.6393162 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 2.0173718 dE: 120 dB: 0.016811432 Exp(-Delta): 0.13300457 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.5241817 dE: 104 dB: 0.014655594 Exp(-Delta): 0.2177992 DECLINED
+(T5 -> T0)
+Delta: 81.157895 dE: -1028 dB: -0.078947368 Exp(-Delta): 5.6698837e-36 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -636.72
+Ensemble Temp: 2.075
+Average Ensemble Energy: -80.02
+Ensemble Temp: 2.15
+Average Ensemble Energy: -4.3657143
+Ensemble Temp: 2.225
+Average Ensemble Energy: 122.86286
+Ensemble Temp: 2.3
+Average Ensemble Energy: 166.82857
+Ensemble Temp: 2.375
+Average Ensemble Energy: 197.21143
+
+Probability of move acceptance during MC cycle (dE>0): 0.054272553
+Probability of move acceptance during MC cycle: 0.16792242
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.49122807
+P(T2 -> T3)= 0.50877193
+P(T3 -> T4)= 0.75438596
+P(T4 -> T5)= 0.70175439
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 57************|
+(T0 -> T1)
+Delta: 9.3975904 dE: 520 dB: 0.018072289 Exp(-Delta): 8.2923641e-05 DECLINED
+(T2 -> T3)
+Delta: 9.0305722 dE: 576 dB: 0.015678077 Exp(-Delta): 0.00011969398 DECLINED
+(T4 -> T5)
+Delta: 0.6590389 dE: 48 dB: 0.013729977 Exp(-Delta): 0.51734832 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.6312693 dE: -216 dB: 0.016811432 Exp(-Delta): 37.760714 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.9345383 dE: 132 dB: 0.014655594 Exp(-Delta): 0.14449096 DECLINED
+(T5 -> T0)
+Delta: 76.105263 dE: -964 dB: -0.078947368 Exp(-Delta): 8.8696027e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -637.26035
+Ensemble Temp: 2.075
+Average Ensemble Energy: -81.198596
+Ensemble Temp: 2.15
+Average Ensemble Energy: -9.5578947
+Ensemble Temp: 2.225
+Average Ensemble Energy: 124.08982
+Ensemble Temp: 2.3
+Average Ensemble Energy: 168.98807
+Ensemble Temp: 2.375
+Average Ensemble Energy: 199.89895
+
+Probability of move acceptance during MC cycle (dE>0): 0.054976951
+Probability of move acceptance during MC cycle: 0.17016492
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.5
+P(T2 -> T3)= 0.5
+P(T3 -> T4)= 0.74137931
+P(T4 -> T5)= 0.70689655
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 58************|
+(T0 -> T1)
+Delta: 7.5180723 dE: 416 dB: 0.018072289 Exp(-Delta): 0.00054317865 DECLINED
+(T2 -> T3)
+Delta: 5.3305461 dE: 340 dB: 0.015678077 Exp(-Delta): 0.0048414253 DECLINED
+(T4 -> T5)
+Delta: -0.60411899 dE: -44 dB: 0.013729977 Exp(-Delta): 1.8296396 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.0086859 dE: 60 dB: 0.016811432 Exp(-Delta): 0.36469791 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.8172936 dE: 124 dB: 0.014655594 Exp(-Delta): 0.16246485 DECLINED
+(T5 -> T0)
+Delta: 77.684211 dE: -984 dB: -0.078947368 Exp(-Delta): 1.8288414e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -637.80966
+Ensemble Temp: 2.075
+Average Ensemble Energy: -85.053793
+Ensemble Temp: 2.15
+Average Ensemble Energy: -11.693793
+Ensemble Temp: 2.225
+Average Ensemble Energy: 125.21103
+Ensemble Temp: 2.3
+Average Ensemble Energy: 171.96966
+Ensemble Temp: 2.375
+Average Ensemble Energy: 201.36
+
+Probability of move acceptance during MC cycle (dE>0): 0.054232354
+Probability of move acceptance during MC cycle: 0.16793373
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.50847458
+P(T2 -> T3)= 0.49152542
+P(T3 -> T4)= 0.72881356
+P(T4 -> T5)= 0.71186441
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 59************|
+(T0 -> T1)
+Delta: 8.9638554 dE: 496 dB: 0.018072289 Exp(-Delta): 0.00012795199 DECLINED
+(T2 -> T3)
+Delta: 10.472955 dE: 668 dB: 0.015678077 Exp(-Delta): 2.8291326e-05 DECLINED
+(T4 -> T5)
+Delta: 0.43935927 dE: 32 dB: 0.013729977 Exp(-Delta): 0.64444921 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.4967778 dE: -208 dB: 0.016811432 Exp(-Delta): 33.008919 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.5793845 dE: 176 dB: 0.014655594 Exp(-Delta): 0.07582066 DECLINED
+(T5 -> T0)
+Delta: 86.842105 dE: -1100 dB: -0.078947368 Exp(-Delta): 1.9273158e-38 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -638.35119
+Ensemble Temp: 2.075
+Average Ensemble Energy: -86.310508
+Ensemble Temp: 2.15
+Average Ensemble Energy: -16.634576
+Ensemble Temp: 2.225
+Average Ensemble Energy: 126.37831
+Ensemble Temp: 2.3
+Average Ensemble Energy: 174.02305
+Ensemble Temp: 2.375
+Average Ensemble Energy: 203.92407
+
+Probability of move acceptance during MC cycle (dE>0): 0.054548265
+Probability of move acceptance during MC cycle: 0.16918856
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.51666667
+P(T2 -> T3)= 0.48333333
+P(T3 -> T4)= 0.71666667
+P(T4 -> T5)= 0.71666667
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 60************|
+(T0 -> T1)
+Delta: 7.373494 dE: 408 dB: 0.018072289 Exp(-Delta): 0.00062767128 DECLINED
+(T2 -> T3)
+Delta: 4.9542723 dE: 316 dB: 0.015678077 Exp(-Delta): 0.0070532112 DECLINED
+(T4 -> T5)
+Delta: -0.76887872 dE: -56 dB: 0.013729977 Exp(-Delta): 2.1573459 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.6811432 dE: 100 dB: 0.016811432 Exp(-Delta): 0.18616104 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.2896922 dE: 88 dB: 0.014655594 Exp(-Delta): 0.27535552 DECLINED
+(T5 -> T0)
+Delta: 76.421053 dE: -968 dB: -0.078947368 Exp(-Delta): 6.4678292e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -638.85333
+Ensemble Temp: 2.075
+Average Ensemble Energy: -89.946667
+Ensemble Temp: 2.15
+Average Ensemble Energy: -18.752
+Ensemble Temp: 2.225
+Average Ensemble Energy: 127.44533
+Ensemble Temp: 2.3
+Average Ensemble Energy: 176.824
+Ensemble Temp: 2.375
+Average Ensemble Energy: 205.26133
+
+Probability of move acceptance during MC cycle (dE>0): 0.054307957
+Probability of move acceptance during MC cycle: 0.16817773
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.52459016
+P(T2 -> T3)= 0.47540984
+P(T3 -> T4)= 0.70491803
+P(T4 -> T5)= 0.72131148
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 61************|
+(T0 -> T1)
+Delta: 9.0361446 dE: 500 dB: 0.018072289 Exp(-Delta): 0.00011902886 DECLINED
+(T2 -> T3)
+Delta: 9.7831199 dE: 624 dB: 0.015678077 Exp(-Delta): 5.6395571e-05 DECLINED
+(T4 -> T5)
+Delta: 0.54919908 dE: 40 dB: 0.013729977 Exp(-Delta): 0.57741208 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.7657607 dE: -224 dB: 0.016811432 Exp(-Delta): 43.196554 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.875916 dE: 128 dB: 0.014655594 Exp(-Delta): 0.15321456 DECLINED
+(T5 -> T0)
+Delta: 78 dE: -988 dB: -0.078947368 Exp(-Delta): 1.3336148e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -639.32328
+Ensemble Temp: 2.075
+Average Ensemble Energy: -90.898361
+Ensemble Temp: 2.15
+Average Ensemble Energy: -23.38623
+Ensemble Temp: 2.225
+Average Ensemble Energy: 128.53246
+Ensemble Temp: 2.3
+Average Ensemble Energy: 178.69377
+Ensemble Temp: 2.375
+Average Ensemble Energy: 207.65115
+
+Probability of move acceptance during MC cycle (dE>0): 0.054714821
+Probability of move acceptance during MC cycle: 0.16972465
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.53225806
+P(T2 -> T3)= 0.46774194
+P(T3 -> T4)= 0.69354839
+P(T4 -> T5)= 0.72580645
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 62************|
+(T0 -> T1)
+Delta: 6.6506024 dE: 368 dB: 0.018072289 Exp(-Delta): 0.0012932428 DECLINED
+(T2 -> T3)
+Delta: 6.52208 dE: 416 dB: 0.015678077 Exp(-Delta): 0.0014706071 DECLINED
+(T4 -> T5)
+Delta: -0.43935927 dE: -32 dB: 0.013729977 Exp(-Delta): 1.5517127 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.2776688 dE: 76 dB: 0.016811432 Exp(-Delta): 0.27868621 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.875916 dE: 128 dB: 0.014655594 Exp(-Delta): 0.15321456 DECLINED
+(T5 -> T0)
+Delta: 80.526316 dE: -1020 dB: -0.078947368 Exp(-Delta): 1.0662656e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -639.80387
+Ensemble Temp: 2.075
+Average Ensemble Energy: -94.379355
+Ensemble Temp: 2.15
+Average Ensemble Energy: -25.181935
+Ensemble Temp: 2.225
+Average Ensemble Energy: 129.54839
+Ensemble Temp: 2.3
+Average Ensemble Energy: 181.34452
+Ensemble Temp: 2.375
+Average Ensemble Energy: 208.92387
+
+Probability of move acceptance during MC cycle (dE>0): 0.054219846
+Probability of move acceptance during MC cycle: 0.16775667
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.53968254
+P(T2 -> T3)= 0.46031746
+P(T3 -> T4)= 0.68253968
+P(T4 -> T5)= 0.73015873
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 63************|
+(T0 -> T1)
+Delta: 9.6144578 dE: 532 dB: 0.018072289 Exp(-Delta): 6.675657e-05 DECLINED
+(T2 -> T3)
+Delta: 8.4034492 dE: 536 dB: 0.015678077 Exp(-Delta): 0.00022409305 DECLINED
+(T4 -> T5)
+Delta: 0.49427918 dE: 36 dB: 0.013729977 Exp(-Delta): 0.61001046 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.2950406 dE: -196 dB: 0.016811432 Exp(-Delta): 26.97851 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.4621397 dE: 168 dB: 0.014655594 Exp(-Delta): 0.08525234 DECLINED
+(T5 -> T0)
+Delta: 79.263158 dE: -1004 dB: -0.078947368 Exp(-Delta): 3.7709251e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -640.25905
+Ensemble Temp: 2.075
+Average Ensemble Energy: -95.365079
+Ensemble Temp: 2.15
+Average Ensemble Energy: -29.544127
+Ensemble Temp: 2.225
+Average Ensemble Energy: 130.53206
+Ensemble Temp: 2.3
+Average Ensemble Energy: 183.0781
+Ensemble Temp: 2.375
+Average Ensemble Energy: 211.16698
+
+Probability of move acceptance during MC cycle (dE>0): 0.05459868
+Probability of move acceptance during MC cycle: 0.16950813
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.546875
+P(T2 -> T3)= 0.453125
+P(T3 -> T4)= 0.671875
+P(T4 -> T5)= 0.734375
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 64************|
+(T0 -> T1)
+Delta: 7.2289157 dE: 400 dB: 0.018072289 Exp(-Delta): 0.00072530691 DECLINED
+(T2 -> T3)
+Delta: 5.2678338 dE: 336 dB: 0.015678077 Exp(-Delta): 0.0051547647 DECLINED
+(T4 -> T5)
+Delta: -0.6590389 dE: -48 dB: 0.013729977 Exp(-Delta): 1.9329337 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.8156346 dE: 108 dB: 0.016811432 Exp(-Delta): 0.1627346 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.4655594 dE: 100 dB: 0.014655594 Exp(-Delta): 0.23094877 DECLINED
+(T5 -> T0)
+Delta: 78.315789 dE: -992 dB: -0.078947368 Exp(-Delta): 9.724892e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -640.71
+Ensemble Temp: 2.075
+Average Ensemble Energy: -98.6475
+Ensemble Temp: 2.15
+Average Ensemble Energy: -31.3375
+Ensemble Temp: 2.225
+Average Ensemble Energy: 131.465
+Ensemble Temp: 2.3
+Average Ensemble Energy: 185.5675
+Ensemble Temp: 2.375
+Average Ensemble Energy: 212.3175
+
+Probability of move acceptance during MC cycle (dE>0): 0.05403947
+Probability of move acceptance during MC cycle: 0.16741302
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.55384615
+P(T2 -> T3)= 0.44615385
+P(T3 -> T4)= 0.66153846
+P(T4 -> T5)= 0.73846154
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 65************|
+(T0 -> T1)
+Delta: 8.746988 dE: 484 dB: 0.018072289 Exp(-Delta): 0.00015893934 DECLINED
+(T2 -> T3)
+Delta: 11.037366 dE: 704 dB: 0.015678077 Exp(-Delta): 1.6089139e-05 DECLINED
+(T4 -> T5)
+Delta: 0.60411899 dE: 44 dB: 0.013729977 Exp(-Delta): 0.54655573 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.7657607 dE: -224 dB: 0.016811432 Exp(-Delta): 43.196554 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.0517831 dE: 140 dB: 0.014655594 Exp(-Delta): 0.12850556 DECLINED
+(T5 -> T0)
+Delta: 83.684211 dE: -1060 dB: -0.078947368 Exp(-Delta): 4.5332445e-37 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -641.14215
+Ensemble Temp: 2.075
+Average Ensemble Energy: -99.436308
+Ensemble Temp: 2.15
+Average Ensemble Energy: -35.522462
+Ensemble Temp: 2.225
+Average Ensemble Energy: 132.448
+Ensemble Temp: 2.3
+Average Ensemble Energy: 187.21231
+Ensemble Temp: 2.375
+Average Ensemble Energy: 214.47877
+
+Probability of move acceptance during MC cycle (dE>0): 0.055000155
+Probability of move acceptance during MC cycle: 0.17010893
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.56060606
+P(T2 -> T3)= 0.43939394
+P(T3 -> T4)= 0.65151515
+P(T4 -> T5)= 0.74242424
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 66************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 5.0169846 dE: 320 dB: 0.015678077 Exp(-Delta): 0.0066244722 DECLINED
+(T4 -> T5)
+Delta: -0.71395881 dE: -52 dB: 0.013729977 Exp(-Delta): 2.0420594 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 0.94144018 dE: 56 dB: 0.016811432 Exp(-Delta): 0.39006567 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.6414265 dE: 112 dB: 0.014655594 Exp(-Delta): 0.19370353 DECLINED
+(T5 -> T0)
+Delta: 75.789474 dE: -960 dB: -0.078947368 Exp(-Delta): 1.2163254e-33 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -641.55636
+Ensemble Temp: 2.075
+Average Ensemble Energy: -102.53576
+Ensemble Temp: 2.15
+Average Ensemble Energy: -36.996364
+Ensemble Temp: 2.225
+Average Ensemble Energy: 133.30909
+Ensemble Temp: 2.3
+Average Ensemble Energy: 189.55152
+Ensemble Temp: 2.375
+Average Ensemble Energy: 215.53212
+
+Probability of move acceptance during MC cycle (dE>0): 0.054178826
+Probability of move acceptance during MC cycle: 0.16762236
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.56716418
+P(T2 -> T3)= 0.43283582
+P(T3 -> T4)= 0.64179104
+P(T4 -> T5)= 0.74626866
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 67************|
+(T0 -> T1)
+Delta: 9.253012 dE: 512 dB: 0.018072289 Exp(-Delta): 9.5822595e-05 DECLINED
+(T2 -> T3)
+Delta: 9.2814215 dE: 592 dB: 0.015678077 Exp(-Delta): 9.3138635e-05 DECLINED
+(T4 -> T5)
+Delta: 0.38443936 dE: 28 dB: 0.013729977 Exp(-Delta): 0.68083223 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.5640235 dE: -212 dB: 0.016811432 Exp(-Delta): 35.304963 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.4035173 dE: 164 dB: 0.014655594 Exp(-Delta): 0.090399428 DECLINED
+(T5 -> T0)
+Delta: 81.157895 dE: -1028 dB: -0.078947368 Exp(-Delta): 5.6698837e-36 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -641.95821
+Ensemble Temp: 2.075
+Average Ensemble Energy: -103.35284
+Ensemble Temp: 2.15
+Average Ensemble Energy: -40.943284
+Ensemble Temp: 2.225
+Average Ensemble Energy: 134.19224
+Ensemble Temp: 2.3
+Average Ensemble Energy: 191.07343
+Ensemble Temp: 2.375
+Average Ensemble Energy: 217.55224
+
+Probability of move acceptance during MC cycle (dE>0): 0.054880421
+Probability of move acceptance during MC cycle: 0.17022991
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.57352941
+P(T2 -> T3)= 0.42647059
+P(T3 -> T4)= 0.63235294
+P(T4 -> T5)= 0.75
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 68************|
+(T0 -> T1)
+Delta: 6.4337349 dE: 356 dB: 0.018072289 Exp(-Delta): 0.0016064397 DECLINED
+(T2 -> T3)
+Delta: 6.4593677 dE: 412 dB: 0.015678077 Exp(-Delta): 0.0015657855 DECLINED
+(T4 -> T5)
+Delta: -0.49427918 dE: -36 dB: 0.013729977 Exp(-Delta): 1.6393162 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 2.0173718 dE: 120 dB: 0.016811432 Exp(-Delta): 0.13300457 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.5241817 dE: 104 dB: 0.014655594 Exp(-Delta): 0.2177992 DECLINED
+(T5 -> T0)
+Delta: 81.157895 dE: -1028 dB: -0.078947368 Exp(-Delta): 5.6698837e-36 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -642.35765
+Ensemble Temp: 2.075
+Average Ensemble Energy: -106.35059
+Ensemble Temp: 2.15
+Average Ensemble Energy: -42.482353
+Ensemble Temp: 2.225
+Average Ensemble Energy: 135.05176
+Ensemble Temp: 2.3
+Average Ensemble Energy: 193.31529
+Ensemble Temp: 2.375
+Average Ensemble Energy: 218.56941
+
+Probability of move acceptance during MC cycle (dE>0): 0.054100386
+Probability of move acceptance during MC cycle: 0.16777183
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.57971014
+P(T2 -> T3)= 0.42028986
+P(T3 -> T4)= 0.62318841
+P(T4 -> T5)= 0.75362319
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 69************|
+(T0 -> T1)
+Delta: 9.3975904 dE: 520 dB: 0.018072289 Exp(-Delta): 8.2923641e-05 DECLINED
+(T2 -> T3)
+Delta: 9.0305722 dE: 576 dB: 0.015678077 Exp(-Delta): 0.00011969398 DECLINED
+(T4 -> T5)
+Delta: 0.6590389 dE: 48 dB: 0.013729977 Exp(-Delta): 0.51734832 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.6312693 dE: -216 dB: 0.016811432 Exp(-Delta): 37.760714 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.9345383 dE: 132 dB: 0.014655594 Exp(-Delta): 0.14449096 DECLINED
+(T5 -> T0)
+Delta: 76.105263 dE: -964 dB: -0.078947368 Exp(-Delta): 8.8696027e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -642.72232
+Ensemble Temp: 2.075
+Average Ensemble Energy: -106.94261
+Ensemble Temp: 2.15
+Average Ensemble Energy: -46.21913
+Ensemble Temp: 2.225
+Average Ensemble Energy: 135.8887
+Ensemble Temp: 2.3
+Average Ensemble Energy: 194.71536
+Ensemble Temp: 2.375
+Average Ensemble Energy: 220.48
+
+Probability of move acceptance during MC cycle (dE>0): 0.054781355
+Probability of move acceptance during MC cycle: 0.16974838
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.58571429
+P(T2 -> T3)= 0.41428571
+P(T3 -> T4)= 0.61428571
+P(T4 -> T5)= 0.75714286
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 70************|
+(T0 -> T1)
+Delta: 7.5180723 dE: 416 dB: 0.018072289 Exp(-Delta): 0.00054317865 DECLINED
+(T2 -> T3)
+Delta: 5.3305461 dE: 340 dB: 0.015678077 Exp(-Delta): 0.0048414253 DECLINED
+(T4 -> T5)
+Delta: -0.60411899 dE: -44 dB: 0.013729977 Exp(-Delta): 1.8296396 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.0086859 dE: 60 dB: 0.016811432 Exp(-Delta): 0.36469791 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.8172936 dE: 124 dB: 0.014655594 Exp(-Delta): 0.16246485 DECLINED
+(T5 -> T0)
+Delta: 77.684211 dE: -984 dB: -0.078947368 Exp(-Delta): 1.8288414e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -643.09943
+Ensemble Temp: 2.075
+Average Ensemble Energy: -109.76914
+Ensemble Temp: 2.15
+Average Ensemble Energy: -47.465143
+Ensemble Temp: 2.225
+Average Ensemble Energy: 136.64914
+Ensemble Temp: 2.3
+Average Ensemble Energy: 196.81829
+Ensemble Temp: 2.375
+Average Ensemble Energy: 221.39657
+
+Probability of move acceptance during MC cycle (dE>0): 0.054243423
+Probability of move acceptance during MC cycle: 0.16773061
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.5915493
+P(T2 -> T3)= 0.4084507
+P(T3 -> T4)= 0.6056338
+P(T4 -> T5)= 0.76056338
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 71************|
+(T0 -> T1)
+Delta: 8.9638554 dE: 496 dB: 0.018072289 Exp(-Delta): 0.00012795199 DECLINED
+(T2 -> T3)
+Delta: 10.472955 dE: 668 dB: 0.015678077 Exp(-Delta): 2.8291326e-05 DECLINED
+(T4 -> T5)
+Delta: 0.43935927 dE: 32 dB: 0.013729977 Exp(-Delta): 0.64444921 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.4967778 dE: -208 dB: 0.016811432 Exp(-Delta): 33.008919 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.5793845 dE: 176 dB: 0.014655594 Exp(-Delta): 0.07582066 DECLINED
+(T5 -> T0)
+Delta: 86.842105 dE: -1100 dB: -0.078947368 Exp(-Delta): 1.9273158e-38 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -643.47493
+Ensemble Temp: 2.075
+Average Ensemble Energy: -110.46535
+Ensemble Temp: 2.15
+Average Ensemble Energy: -51.067042
+Ensemble Temp: 2.225
+Average Ensemble Energy: 137.45803
+Ensemble Temp: 2.3
+Average Ensemble Energy: 198.17465
+Ensemble Temp: 2.375
+Average Ensemble Energy: 223.24507
+
+Probability of move acceptance during MC cycle (dE>0): 0.054609676
+Probability of move acceptance during MC cycle: 0.16954942
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.59722222
+P(T2 -> T3)= 0.40277778
+P(T3 -> T4)= 0.59722222
+P(T4 -> T5)= 0.76388889
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 72************|
+(T0 -> T1)
+Delta: 7.373494 dE: 408 dB: 0.018072289 Exp(-Delta): 0.00062767128 DECLINED
+(T2 -> T3)
+Delta: 4.9542723 dE: 316 dB: 0.015678077 Exp(-Delta): 0.0070532112 DECLINED
+(T4 -> T5)
+Delta: -0.76887872 dE: -56 dB: 0.013729977 Exp(-Delta): 2.1573459 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.6811432 dE: 100 dB: 0.016811432 Exp(-Delta): 0.18616104 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.2896922 dE: 88 dB: 0.014655594 Exp(-Delta): 0.27535552 DECLINED
+(T5 -> T0)
+Delta: 76.421053 dE: -968 dB: -0.078947368 Exp(-Delta): 6.4678292e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -643.82222
+Ensemble Temp: 2.075
+Average Ensemble Energy: -113.16
+Ensemble Temp: 2.15
+Average Ensemble Energy: -52.353333
+Ensemble Temp: 2.225
+Average Ensemble Energy: 138.19333
+Ensemble Temp: 2.3
+Average Ensemble Energy: 200.17333
+Ensemble Temp: 2.375
+Average Ensemble Energy: 224.09111
+
+Probability of move acceptance during MC cycle (dE>0): 0.05429088
+Probability of move acceptance during MC cycle: 0.16788143
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.60273973
+P(T2 -> T3)= 0.39726027
+P(T3 -> T4)= 0.5890411
+P(T4 -> T5)= 0.76712329
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 73************|
+(T0 -> T1)
+Delta: 9.0361446 dE: 500 dB: 0.018072289 Exp(-Delta): 0.00011902886 DECLINED
+(T2 -> T3)
+Delta: 9.7831199 dE: 624 dB: 0.015678077 Exp(-Delta): 5.6395571e-05 DECLINED
+(T4 -> T5)
+Delta: 0.54919908 dE: 40 dB: 0.013729977 Exp(-Delta): 0.57741208 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.7657607 dE: -224 dB: 0.016811432 Exp(-Delta): 43.196554 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.875916 dE: 128 dB: 0.014655594 Exp(-Delta): 0.15321456 DECLINED
+(T5 -> T0)
+Delta: 78 dE: -988 dB: -0.078947368 Exp(-Delta): 1.3336148e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -644.14685
+Ensemble Temp: 2.075
+Average Ensemble Energy: -113.63726
+Ensemble Temp: 2.15
+Average Ensemble Energy: -55.765479
+Ensemble Temp: 2.225
+Average Ensemble Energy: 138.95452
+Ensemble Temp: 2.3
+Average Ensemble Energy: 201.41589
+Ensemble Temp: 2.375
+Average Ensemble Energy: 225.83014
+
+Probability of move acceptance during MC cycle (dE>0): 0.054864815
+Probability of move acceptance during MC cycle: 0.16991177
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.60810811
+P(T2 -> T3)= 0.39189189
+P(T3 -> T4)= 0.58108108
+P(T4 -> T5)= 0.77027027
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 74************|
+(T0 -> T1)
+Delta: 6.6506024 dE: 368 dB: 0.018072289 Exp(-Delta): 0.0012932428 DECLINED
+(T2 -> T3)
+Delta: 6.52208 dE: 416 dB: 0.015678077 Exp(-Delta): 0.0014706071 DECLINED
+(T4 -> T5)
+Delta: -0.43935927 dE: -32 dB: 0.013729977 Exp(-Delta): 1.5517127 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.2776688 dE: 76 dB: 0.016811432 Exp(-Delta): 0.27868621 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.875916 dE: 128 dB: 0.014655594 Exp(-Delta): 0.15321456 DECLINED
+(T5 -> T0)
+Delta: 80.526316 dE: -1020 dB: -0.078947368 Exp(-Delta): 1.0662656e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -644.48432
+Ensemble Temp: 2.075
+Average Ensemble Energy: -116.24649
+Ensemble Temp: 2.15
+Average Ensemble Energy: -56.832432
+Ensemble Temp: 2.225
+Average Ensemble Energy: 139.66486
+Ensemble Temp: 2.3
+Average Ensemble Energy: 203.32973
+Ensemble Temp: 2.375
+Average Ensemble Energy: 226.65081
+
+Probability of move acceptance during MC cycle (dE>0): 0.054391163
+Probability of move acceptance during MC cycle: 0.16829724
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.61333333
+P(T2 -> T3)= 0.38666667
+P(T3 -> T4)= 0.57333333
+P(T4 -> T5)= 0.77333333
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 75************|
+(T0 -> T1)
+Delta: 9.6144578 dE: 532 dB: 0.018072289 Exp(-Delta): 6.675657e-05 DECLINED
+(T2 -> T3)
+Delta: 8.4034492 dE: 536 dB: 0.015678077 Exp(-Delta): 0.00022409305 DECLINED
+(T4 -> T5)
+Delta: 0.49427918 dE: 36 dB: 0.013729977 Exp(-Delta): 0.61001046 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.2950406 dE: -196 dB: 0.016811432 Exp(-Delta): 26.97851 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.4621397 dE: 168 dB: 0.014655594 Exp(-Delta): 0.08525234 DECLINED
+(T5 -> T0)
+Delta: 79.263158 dE: -1004 dB: -0.078947368 Exp(-Delta): 3.7709251e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -644.80427
+Ensemble Temp: 2.075
+Average Ensemble Energy: -116.77867
+Ensemble Temp: 2.15
+Average Ensemble Energy: -60.074667
+Ensemble Temp: 2.225
+Average Ensemble Energy: 140.35627
+Ensemble Temp: 2.3
+Average Ensemble Energy: 204.4928
+Ensemble Temp: 2.375
+Average Ensemble Energy: 228.29867
+
+Probability of move acceptance during MC cycle (dE>0): 0.054747927
+Probability of move acceptance during MC cycle: 0.16996031
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.61842105
+P(T2 -> T3)= 0.38157895
+P(T3 -> T4)= 0.56578947
+P(T4 -> T5)= 0.77631579
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 76************|
+(T0 -> T1)
+Delta: 7.2289157 dE: 400 dB: 0.018072289 Exp(-Delta): 0.00072530691 DECLINED
+(T2 -> T3)
+Delta: 5.2678338 dE: 336 dB: 0.015678077 Exp(-Delta): 0.0051547647 DECLINED
+(T4 -> T5)
+Delta: -0.6590389 dE: -48 dB: 0.013729977 Exp(-Delta): 1.9329337 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 1.8156346 dE: 108 dB: 0.016811432 Exp(-Delta): 0.1627346 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.4655594 dE: 100 dB: 0.014655594 Exp(-Delta): 0.23094877 DECLINED
+(T5 -> T0)
+Delta: 78.315789 dE: -992 dB: -0.078947368 Exp(-Delta): 9.724892e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -645.12421
+Ensemble Temp: 2.075
+Average Ensemble Energy: -119.26105
+Ensemble Temp: 2.15
+Average Ensemble Energy: -61.183158
+Ensemble Temp: 2.225
+Average Ensemble Energy: 141.01263
+Ensemble Temp: 2.3
+Average Ensemble Energy: 206.30737
+Ensemble Temp: 2.375
+Average Ensemble Energy: 229.04211
+
+Probability of move acceptance during MC cycle (dE>0): 0.054271372
+Probability of move acceptance during MC cycle: 0.16804547
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.62337662
+P(T2 -> T3)= 0.37662338
+P(T3 -> T4)= 0.55844156
+P(T4 -> T5)= 0.77922078
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 77************|
+(T0 -> T1)
+Delta: 8.746988 dE: 484 dB: 0.018072289 Exp(-Delta): 0.00015893934 DECLINED
+(T2 -> T3)
+Delta: 11.037366 dE: 704 dB: 0.015678077 Exp(-Delta): 1.6089139e-05 DECLINED
+(T4 -> T5)
+Delta: 0.60411899 dE: 44 dB: 0.013729977 Exp(-Delta): 0.54655573 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.7657607 dE: -224 dB: 0.016811432 Exp(-Delta): 43.196554 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.0517831 dE: 140 dB: 0.014655594 Exp(-Delta): 0.12850556 DECLINED
+(T5 -> T0)
+Delta: 83.684211 dE: -1060 dB: -0.078947368 Exp(-Delta): 4.5332445e-37 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -645.43169
+Ensemble Temp: 2.075
+Average Ensemble Energy: -119.65922
+Ensemble Temp: 2.15
+Average Ensemble Energy: -64.328312
+Ensemble Temp: 2.225
+Average Ensemble Energy: 141.71844
+Ensemble Temp: 2.3
+Average Ensemble Energy: 207.42649
+Ensemble Temp: 2.375
+Average Ensemble Energy: 230.64935
+
+Probability of move acceptance during MC cycle (dE>0): 0.054977758
+Probability of move acceptance during MC cycle: 0.16995671
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.62820513
+P(T2 -> T3)= 0.37179487
+P(T3 -> T4)= 0.55128205
+P(T4 -> T5)= 0.78205128
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 78************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 5.0169846 dE: 320 dB: 0.015678077 Exp(-Delta): 0.0066244722 DECLINED
+(T4 -> T5)
+Delta: -0.71395881 dE: -52 dB: 0.013729977 Exp(-Delta): 2.0420594 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 0.94144018 dE: 56 dB: 0.016811432 Exp(-Delta): 0.39006567 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.6414265 dE: 112 dB: 0.014655594 Exp(-Delta): 0.19370353 DECLINED
+(T5 -> T0)
+Delta: 75.789474 dE: -960 dB: -0.078947368 Exp(-Delta): 1.2163254e-33 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -645.72718
+Ensemble Temp: 2.075
+Average Ensemble Energy: -122.02256
+Ensemble Temp: 2.15
+Average Ensemble Energy: -65.206154
+Ensemble Temp: 2.225
+Average Ensemble Energy: 142.32821
+Ensemble Temp: 2.3
+Average Ensemble Energy: 209.14667
+Ensemble Temp: 2.375
+Average Ensemble Energy: 231.33333
+
+Probability of move acceptance during MC cycle (dE>0): 0.054299903
+Probability of move acceptance during MC cycle: 0.16778752
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.63291139
+P(T2 -> T3)= 0.36708861
+P(T3 -> T4)= 0.5443038
+P(T4 -> T5)= 0.78481013
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 79************|
+(T0 -> T1)
+Delta: 9.253012 dE: 512 dB: 0.018072289 Exp(-Delta): 9.5822595e-05 DECLINED
+(T2 -> T3)
+Delta: 9.2814215 dE: 592 dB: 0.015678077 Exp(-Delta): 9.3138635e-05 DECLINED
+(T4 -> T5)
+Delta: 0.38443936 dE: 28 dB: 0.013729977 Exp(-Delta): 0.68083223 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.5640235 dE: -212 dB: 0.016811432 Exp(-Delta): 35.304963 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 2.4035173 dE: 164 dB: 0.014655594 Exp(-Delta): 0.090399428 DECLINED
+(T5 -> T0)
+Delta: 81.157895 dE: -1028 dB: -0.078947368 Exp(-Delta): 5.6698837e-36 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -646.01519
+Ensemble Temp: 2.075
+Average Ensemble Energy: -122.46886
+Ensemble Temp: 2.15
+Average Ensemble Energy: -68.196456
+Ensemble Temp: 2.225
+Average Ensemble Energy: 142.96304
+Ensemble Temp: 2.3
+Average Ensemble Energy: 210.18937
+Ensemble Temp: 2.375
+Average Ensemble Energy: 232.84658
+
+Probability of move acceptance during MC cycle (dE>0): 0.054628295
+Probability of move acceptance during MC cycle: 0.16949845
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.6375
+P(T2 -> T3)= 0.3625
+P(T3 -> T4)= 0.5375
+P(T4 -> T5)= 0.7875
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 80************|
+(T0 -> T1)
+Delta: 6.4337349 dE: 356 dB: 0.018072289 Exp(-Delta): 0.0016064397 DECLINED
+(T2 -> T3)
+Delta: 6.4593677 dE: 412 dB: 0.015678077 Exp(-Delta): 0.0015657855 DECLINED
+(T4 -> T5)
+Delta: -0.49427918 dE: -36 dB: 0.013729977 Exp(-Delta): 1.6393162 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 2.0173718 dE: 120 dB: 0.016811432 Exp(-Delta): 0.13300457 ACCEPTED (Delta > 0)
+(T3 -> T4)
+Delta: 1.5241817 dE: 104 dB: 0.014655594 Exp(-Delta): 0.2177992 DECLINED
+(T5 -> T0)
+Delta: 81.157895 dE: -1028 dB: -0.078947368 Exp(-Delta): 5.6698837e-36 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -646.304
+Ensemble Temp: 2.075
+Average Ensemble Energy: -124.778
+Ensemble Temp: 2.15
+Average Ensemble Energy: -69.164
+Ensemble Temp: 2.225
+Average Ensemble Energy: 143.584
+Ensemble Temp: 2.3
+Average Ensemble Energy: 211.856
+Ensemble Temp: 2.375
+Average Ensemble Energy: 233.52
+
+Probability of move acceptance during MC cycle (dE>0): 0.054301932
+Probability of move acceptance during MC cycle: 0.16809295
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.64197531
+P(T2 -> T3)= 0.35802469
+P(T3 -> T4)= 0.5308642
+P(T4 -> T5)= 0.79012346
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 81************|
+(T0 -> T1)
+Delta: 9.3975904 dE: 520 dB: 0.018072289 Exp(-Delta): 8.2923641e-05 DECLINED
+(T2 -> T3)
+Delta: 9.0305722 dE: 576 dB: 0.015678077 Exp(-Delta): 0.00011969398 DECLINED
+(T4 -> T5)
+Delta: 0.6590389 dE: 48 dB: 0.013729977 Exp(-Delta): 0.51734832 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: -3.6312693 dE: -216 dB: 0.016811432 Exp(-Delta): 37.760714 ACCEPTED (Delta < 0)
+(T3 -> T4)
+Delta: 1.9345383 dE: 132 dB: 0.014655594 Exp(-Delta): 0.14449096 DECLINED
+(T5 -> T0)
+Delta: 76.105263 dE: -964 dB: -0.078947368 Exp(-Delta): 8.8696027e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -646.56593
+Ensemble Temp: 2.075
+Average Ensemble Energy: -125.05481
+Ensemble Temp: 2.15
+Average Ensemble Energy: -72.017778
+Ensemble Temp: 2.225
+Average Ensemble Energy: 144.1916
+Ensemble Temp: 2.3
+Average Ensemble Energy: 212.81975
+Ensemble Temp: 2.375
+Average Ensemble Energy: 234.96296
+
+Probability of move acceptance during MC cycle (dE>0): 0.052278471
+Probability of move acceptance during MC cycle: 0.15724093
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.64634146
+P(T2 -> T3)= 0.35365854
+P(T3 -> T4)= 0.52439024
+P(T4 -> T5)= 0.79268293
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 82************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 3.5118892 dE: 224 dB: 0.015678077 Exp(-Delta): 0.029840486 DECLINED
+(T4 -> T5)
+Delta: 0.27459954 dE: 20 dB: 0.013729977 Exp(-Delta): 0.75987636 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 5.7158868 dE: 340 dB: 0.016811432 Exp(-Delta): 0.0032932288 DECLINED
+(T3 -> T4)
+Delta: 0.2344895 dE: 16 dB: 0.014655594 Exp(-Delta): 0.79097454 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 77.368421 dE: -980 dB: -0.078947368 Exp(-Delta): 2.5079661e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -647.1922
+Ensemble Temp: 2.075
+Average Ensemble Energy: -127.2039
+Ensemble Temp: 2.15
+Average Ensemble Energy: -71.527805
+Ensemble Temp: 2.225
+Average Ensemble Energy: 144.91122
+Ensemble Temp: 2.3
+Average Ensemble Energy: 213.6722
+Ensemble Temp: 2.375
+Average Ensemble Energy: 235.39707
+
+Probability of move acceptance during MC cycle (dE>0): 0.049157282
+Probability of move acceptance during MC cycle: 0.14365258
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.63855422
+P(T2 -> T3)= 0.34939759
+P(T3 -> T4)= 0.53012048
+P(T4 -> T5)= 0.79518072
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 83************|
+(T0 -> T1)
+Delta: 6.5060241 dE: 360 dB: 0.018072289 Exp(-Delta): 0.0014944096 DECLINED
+(T2 -> T3)
+Delta: 4.2017246 dE: 268 dB: 0.015678077 Exp(-Delta): 0.014969738 DECLINED
+(T4 -> T5)
+Delta: -0.93363844 dE: -68 dB: 0.013729977 Exp(-Delta): 2.5437476 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 6.9263099 dE: 412 dB: 0.016811432 Exp(-Delta): 0.00098161647 DECLINED
+(T3 -> T4)
+Delta: -1.2896922 dE: -88 dB: 0.014655594 Exp(-Delta): 3.6316687 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 80.526316 dE: -1020 dB: -0.078947368 Exp(-Delta): 1.0662656e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -648.16964
+Ensemble Temp: 2.075
+Average Ensemble Energy: -129.76193
+Ensemble Temp: 2.15
+Average Ensemble Energy: -70.201446
+Ensemble Temp: 2.225
+Average Ensemble Energy: 146.68916
+Ensemble Temp: 2.3
+Average Ensemble Energy: 214.11855
+Ensemble Temp: 2.375
+Average Ensemble Energy: 235.62217
+
+Probability of move acceptance during MC cycle (dE>0): 0.049037122
+Probability of move acceptance during MC cycle: 0.14487782
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.63095238
+P(T2 -> T3)= 0.3452381
+P(T3 -> T4)= 0.53571429
+P(T4 -> T5)= 0.79761905
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 84************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 3.5118892 dE: 224 dB: 0.015678077 Exp(-Delta): 0.029840486 DECLINED
+(T4 -> T5)
+Delta: -1.2631579 dE: -92 dB: 0.013729977 Exp(-Delta): 3.536572 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 5.9848697 dE: 356 dB: 0.016811432 Exp(-Delta): 0.0025165416 DECLINED
+(T3 -> T4)
+Delta: -1.3483146 dE: -92 dB: 0.014655594 Exp(-Delta): 3.8509297 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 78.947368 dE: -1000 dB: -0.078947368 Exp(-Delta): 5.1712262e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -649.11619
+Ensemble Temp: 2.075
+Average Ensemble Energy: -132.22286
+Ensemble Temp: 2.15
+Average Ensemble Energy: -68.897143
+Ensemble Temp: 2.225
+Average Ensemble Energy: 148.1619
+Ensemble Temp: 2.3
+Average Ensemble Energy: 215.04
+Ensemble Temp: 2.375
+Average Ensemble Energy: 235.53143
+
+Probability of move acceptance during MC cycle (dE>0): 0.048148484
+Probability of move acceptance during MC cycle: 0.14138933
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.62352941
+P(T2 -> T3)= 0.34117647
+P(T3 -> T4)= 0.54117647
+P(T4 -> T5)= 0.8
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 85************|
+(T0 -> T1)
+Delta: 6.5060241 dE: 360 dB: 0.018072289 Exp(-Delta): 0.0014944096 DECLINED
+(T2 -> T3)
+Delta: 4.9542723 dE: 316 dB: 0.015678077 Exp(-Delta): 0.0070532112 DECLINED
+(T4 -> T5)
+Delta: 1.0434783 dE: 76 dB: 0.013729977 Exp(-Delta): 0.35222741 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 6.7245727 dE: 400 dB: 0.016811432 Exp(-Delta): 0.0012010337 DECLINED
+(T3 -> T4)
+Delta: -0.52760137 dE: -36 dB: 0.014655594 Exp(-Delta): 1.6948621 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 76.105263 dE: -964 dB: -0.078947368 Exp(-Delta): 8.8696027e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -650.048
+Ensemble Temp: 2.075
+Average Ensemble Energy: -134.66165
+Ensemble Temp: 2.15
+Average Ensemble Energy: -67.638588
+Ensemble Temp: 2.225
+Average Ensemble Energy: 149.66588
+Ensemble Temp: 2.3
+Average Ensemble Energy: 215.42588
+Ensemble Temp: 2.375
+Average Ensemble Energy: 236.20141
+
+Probability of move acceptance during MC cycle (dE>0): 0.049317274
+Probability of move acceptance during MC cycle: 0.14540837
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.61627907
+P(T2 -> T3)= 0.3372093
+P(T3 -> T4)= 0.54651163
+P(T4 -> T5)= 0.80232558
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 86************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 4.0135877 dE: 256 dB: 0.015678077 Exp(-Delta): 0.018068455 DECLINED
+(T4 -> T5)
+Delta: 0.43935927 dE: 32 dB: 0.013729977 Exp(-Delta): 0.64444921 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 5.4469039 dE: 324 dB: 0.016811432 Exp(-Delta): 0.0043096271 DECLINED
+(T3 -> T4)
+Delta: -0.46897899 dE: -32 dB: 0.014655594 Exp(-Delta): 1.5983614 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 73.894737 dE: -936 dB: -0.078947368 Exp(-Delta): 8.0895348e-33 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -650.9507
+Ensemble Temp: 2.075
+Average Ensemble Energy: -137.00837
+Ensemble Temp: 2.15
+Average Ensemble Energy: -66.409302
+Ensemble Temp: 2.225
+Average Ensemble Energy: 151.31535
+Ensemble Temp: 2.3
+Average Ensemble Energy: 215.81209
+Ensemble Temp: 2.375
+Average Ensemble Energy: 236.3014
+
+Probability of move acceptance during MC cycle (dE>0): 0.049121048
+Probability of move acceptance during MC cycle: 0.14549427
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.6091954
+P(T2 -> T3)= 0.33333333
+P(T3 -> T4)= 0.55172414
+P(T4 -> T5)= 0.8045977
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 87************|
+(T0 -> T1)
+Delta: 6.5060241 dE: 360 dB: 0.018072289 Exp(-Delta): 0.0014944096 DECLINED
+(T2 -> T3)
+Delta: 3.1356154 dE: 200 dB: 0.015678077 Exp(-Delta): 0.043472994 DECLINED
+(T4 -> T5)
+Delta: -1.0434783 dE: -76 dB: 0.013729977 Exp(-Delta): 2.8390749 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 7.3297843 dE: 436 dB: 0.016811432 Exp(-Delta): 0.00065571504 DECLINED
+(T3 -> T4)
+Delta: -0.46897899 dE: -32 dB: 0.014655594 Exp(-Delta): 1.5983614 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 82.105263 dE: -1040 dB: -0.078947368 Exp(-Delta): 2.1985547e-36 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -651.84
+Ensemble Temp: 2.075
+Average Ensemble Energy: -139.33609
+Ensemble Temp: 2.15
+Average Ensemble Energy: -65.191724
+Ensemble Temp: 2.225
+Average Ensemble Energy: 152.67494
+Ensemble Temp: 2.3
+Average Ensemble Energy: 216.69333
+Ensemble Temp: 2.375
+Average Ensemble Energy: 236.22805
+
+Probability of move acceptance during MC cycle (dE>0): 0.048229031
+Probability of move acceptance during MC cycle: 0.14145589
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.60227273
+P(T2 -> T3)= 0.32954545
+P(T3 -> T4)= 0.55681818
+P(T4 -> T5)= 0.80681818
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 88************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 3.4491769 dE: 220 dB: 0.015678077 Exp(-Delta): 0.031771777 DECLINED
+(T4 -> T5)
+Delta: 0.43935927 dE: 32 dB: 0.013729977 Exp(-Delta): 0.64444921 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 5.917624 dE: 352 dB: 0.016811432 Exp(-Delta): 0.0026915878 DECLINED
+(T3 -> T4)
+Delta: 0.11724475 dE: 8 dB: 0.014655594 Exp(-Delta): 0.8893675 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 76.421053 dE: -968 dB: -0.078947368 Exp(-Delta): 6.4678292e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -652.70182
+Ensemble Temp: 2.075
+Average Ensemble Energy: -141.57636
+Ensemble Temp: 2.15
+Average Ensemble Energy: -64.005455
+Ensemble Temp: 2.225
+Average Ensemble Energy: 154.04909
+Ensemble Temp: 2.3
+Average Ensemble Energy: 217.05636
+Ensemble Temp: 2.375
+Average Ensemble Energy: 236.85636
+
+Probability of move acceptance during MC cycle (dE>0): 0.049122595
+Probability of move acceptance during MC cycle: 0.14523098
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.59550562
+P(T2 -> T3)= 0.3258427
+P(T3 -> T4)= 0.56179775
+P(T4 -> T5)= 0.80898876
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 89************|
+(T0 -> T1)
+Delta: 6.5060241 dE: 360 dB: 0.018072289 Exp(-Delta): 0.0014944096 DECLINED
+(T2 -> T3)
+Delta: 4.6407107 dE: 296 dB: 0.015678077 Exp(-Delta): 0.009650836 DECLINED
+(T4 -> T5)
+Delta: -0.76887872 dE: -56 dB: 0.013729977 Exp(-Delta): 2.1573459 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 6.4555898 dE: 384 dB: 0.016811432 Exp(-Delta): 0.001571712 DECLINED
+(T3 -> T4)
+Delta: -1.1138251 dE: -76 dB: 0.014655594 Exp(-Delta): 3.0459874 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 80.526316 dE: -1020 dB: -0.078947368 Exp(-Delta): 1.0662656e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -653.55146
+Ensemble Temp: 2.075
+Average Ensemble Energy: -143.80045
+Ensemble Temp: 2.15
+Average Ensemble Energy: -62.865618
+Ensemble Temp: 2.225
+Average Ensemble Energy: 155.60449
+Ensemble Temp: 2.3
+Average Ensemble Energy: 217.4418
+Ensemble Temp: 2.375
+Average Ensemble Energy: 236.93663
+
+Probability of move acceptance during MC cycle (dE>0): 0.049173849
+Probability of move acceptance during MC cycle: 0.14542946
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.58888889
+P(T2 -> T3)= 0.32222222
+P(T3 -> T4)= 0.56666667
+P(T4 -> T5)= 0.81111111
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 90************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 3.7000261 dE: 236 dB: 0.015678077 Exp(-Delta): 0.02472288 DECLINED
+(T4 -> T5)
+Delta: -1.2631579 dE: -92 dB: 0.013729977 Exp(-Delta): 3.536572 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 5.7831325 dE: 344 dB: 0.016811432 Exp(-Delta): 0.0030790551 DECLINED
+(T3 -> T4)
+Delta: -1.3483146 dE: -92 dB: 0.014655594 Exp(-Delta): 3.8509297 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 78.947368 dE: -1000 dB: -0.078947368 Exp(-Delta): 5.1712262e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -654.37511
+Ensemble Temp: 2.075
+Average Ensemble Energy: -145.94133
+Ensemble Temp: 2.15
+Average Ensemble Energy: -61.735111
+Ensemble Temp: 2.225
+Average Ensemble Energy: 156.88
+Ensemble Temp: 2.3
+Average Ensemble Energy: 218.26489
+Ensemble Temp: 2.375
+Average Ensemble Energy: 236.83733
+
+Probability of move acceptance during MC cycle (dE>0): 0.047952651
+Probability of move acceptance during MC cycle: 0.14109026
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.58241758
+P(T2 -> T3)= 0.31868132
+P(T3 -> T4)= 0.57142857
+P(T4 -> T5)= 0.81318681
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 91************|
+(T0 -> T1)
+Delta: 6.5060241 dE: 360 dB: 0.018072289 Exp(-Delta): 0.0014944096 DECLINED
+(T2 -> T3)
+Delta: 4.5152861 dE: 288 dB: 0.015678077 Exp(-Delta): 0.010940474 DECLINED
+(T4 -> T5)
+Delta: 1.0434783 dE: 76 dB: 0.013729977 Exp(-Delta): 0.35222741 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 7.1952928 dE: 428 dB: 0.016811432 Exp(-Delta): 0.00075010842 DECLINED
+(T3 -> T4)
+Delta: -0.52760137 dE: -36 dB: 0.014655594 Exp(-Delta): 1.6948621 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 76.105263 dE: -964 dB: -0.078947368 Exp(-Delta): 8.8696027e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -655.18769
+Ensemble Temp: 2.075
+Average Ensemble Energy: -148.06857
+Ensemble Temp: 2.15
+Average Ensemble Energy: -60.625934
+Ensemble Temp: 2.225
+Average Ensemble Energy: 158.18901
+Ensemble Temp: 2.3
+Average Ensemble Energy: 218.58989
+Ensemble Temp: 2.375
+Average Ensemble Energy: 237.44879
+
+Probability of move acceptance during MC cycle (dE>0): 0.049666047
+Probability of move acceptance during MC cycle: 0.14596009
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.57608696
+P(T2 -> T3)= 0.31521739
+P(T3 -> T4)= 0.57608696
+P(T4 -> T5)= 0.81521739
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 92************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 3.8254507 dE: 244 dB: 0.015678077 Exp(-Delta): 0.021808603 DECLINED
+(T4 -> T5)
+Delta: 0.43935927 dE: 32 dB: 0.013729977 Exp(-Delta): 0.64444921 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 5.6486411 dE: 336 dB: 0.016811432 Exp(-Delta): 0.0035223001 DECLINED
+(T3 -> T4)
+Delta: -0.46897899 dE: -32 dB: 0.014655594 Exp(-Delta): 1.5983614 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 73.894737 dE: -936 dB: -0.078947368 Exp(-Delta): 8.0895348e-33 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -655.97565
+Ensemble Temp: 2.075
+Average Ensemble Energy: -150.11652
+Ensemble Temp: 2.15
+Average Ensemble Energy: -59.547826
+Ensemble Temp: 2.225
+Average Ensemble Energy: 159.63826
+Ensemble Temp: 2.3
+Average Ensemble Energy: 218.91652
+Ensemble Temp: 2.375
+Average Ensemble Energy: 237.5287
+
+Probability of move acceptance during MC cycle (dE>0): 0.049071015
+Probability of move acceptance during MC cycle: 0.14521578
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.56989247
+P(T2 -> T3)= 0.31182796
+P(T3 -> T4)= 0.58064516
+P(T4 -> T5)= 0.8172043
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 93************|
+(T0 -> T1)
+Delta: 6.5060241 dE: 360 dB: 0.018072289 Exp(-Delta): 0.0014944096 DECLINED
+(T2 -> T3)
+Delta: 3.5746015 dE: 228 dB: 0.015678077 Exp(-Delta): 0.028026592 DECLINED
+(T4 -> T5)
+Delta: -1.0434783 dE: -76 dB: 0.013729977 Exp(-Delta): 2.8390749 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 6.8590642 dE: 408 dB: 0.016811432 Exp(-Delta): 0.001049896 DECLINED
+(T3 -> T4)
+Delta: -0.46897899 dE: -32 dB: 0.014655594 Exp(-Delta): 1.5983614 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 82.105263 dE: -1040 dB: -0.078947368 Exp(-Delta): 2.1985547e-36 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -656.75355
+Ensemble Temp: 2.075
+Average Ensemble Energy: -152.15312
+Ensemble Temp: 2.15
+Average Ensemble Energy: -58.494624
+Ensemble Temp: 2.225
+Average Ensemble Energy: 160.82065
+Ensemble Temp: 2.3
+Average Ensemble Energy: 219.70753
+Ensemble Temp: 2.375
+Average Ensemble Energy: 237.44688
+
+Probability of move acceptance during MC cycle (dE>0): 0.048095526
+Probability of move acceptance during MC cycle: 0.14131057
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.56382979
+P(T2 -> T3)= 0.30851064
+P(T3 -> T4)= 0.58510638
+P(T4 -> T5)= 0.81914894
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 94************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 3.6373138 dE: 232 dB: 0.015678077 Exp(-Delta): 0.026322957 DECLINED
+(T4 -> T5)
+Delta: 0.43935927 dE: 32 dB: 0.013729977 Exp(-Delta): 0.64444921 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 5.7158868 dE: 340 dB: 0.016811432 Exp(-Delta): 0.0032932288 DECLINED
+(T3 -> T4)
+Delta: 0.11724475 dE: 8 dB: 0.014655594 Exp(-Delta): 0.8893675 ACCEPTED (Delta > 0)
+(T5 -> T0)
+Delta: 76.421053 dE: -968 dB: -0.078947368 Exp(-Delta): 6.4678292e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -657.50809
+Ensemble Temp: 2.075
+Average Ensemble Energy: -154.11404
+Ensemble Temp: 2.15
+Average Ensemble Energy: -57.460426
+Ensemble Temp: 2.225
+Average Ensemble Energy: 162.02043
+Ensemble Temp: 2.3
+Average Ensemble Energy: 220.01532
+Ensemble Temp: 2.375
+Average Ensemble Energy: 238.02213
+
+Probability of move acceptance during MC cycle (dE>0): 0.049263779
+Probability of move acceptance during MC cycle: 0.1459013
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.55789474
+P(T2 -> T3)= 0.30526316
+P(T3 -> T4)= 0.58947368
+P(T4 -> T5)= 0.82105263
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 95************|
+(T0 -> T1)
+Delta: 6.5060241 dE: 360 dB: 0.018072289 Exp(-Delta): 0.0014944096 DECLINED
+(T2 -> T3)
+Delta: 4.2017246 dE: 268 dB: 0.015678077 Exp(-Delta): 0.014969738 DECLINED
+(T4 -> T5)
+Delta: -0.76887872 dE: -56 dB: 0.013729977 Exp(-Delta): 2.1573459 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 6.9263099 dE: 412 dB: 0.016811432 Exp(-Delta): 0.00098161647 DECLINED
+(T3 -> T4)
+Delta: -1.1138251 dE: -76 dB: 0.014655594 Exp(-Delta): 3.0459874 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 80.526316 dE: -1020 dB: -0.078947368 Exp(-Delta): 1.0662656e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -658.25347
+Ensemble Temp: 2.075
+Average Ensemble Energy: -156.06568
+Ensemble Temp: 2.15
+Average Ensemble Energy: -56.449684
+Ensemble Temp: 2.225
+Average Ensemble Energy: 163.39368
+Ensemble Temp: 2.3
+Average Ensemble Energy: 220.34526
+Ensemble Temp: 2.375
+Average Ensemble Energy: 238.08505
+
+Probability of move acceptance during MC cycle (dE>0): 0.049234136
+Probability of move acceptance during MC cycle: 0.145386
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.55208333
+P(T2 -> T3)= 0.30208333
+P(T3 -> T4)= 0.59375
+P(T4 -> T5)= 0.82291667
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 96************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 3.5118892 dE: 224 dB: 0.015678077 Exp(-Delta): 0.029840486 DECLINED
+(T4 -> T5)
+Delta: -1.2631579 dE: -92 dB: 0.013729977 Exp(-Delta): 3.536572 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 5.9848697 dE: 356 dB: 0.016811432 Exp(-Delta): 0.0025165416 DECLINED
+(T3 -> T4)
+Delta: -1.3483146 dE: -92 dB: 0.014655594 Exp(-Delta): 3.8509297 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 78.947368 dE: -1000 dB: -0.078947368 Exp(-Delta): 5.1712262e-35 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -658.97667
+Ensemble Temp: 2.075
+Average Ensemble Energy: -157.945
+Ensemble Temp: 2.15
+Average Ensemble Energy: -55.451667
+Ensemble Temp: 2.225
+Average Ensemble Energy: 164.50833
+Ensemble Temp: 2.3
+Average Ensemble Energy: 221.08667
+Ensemble Temp: 2.375
+Average Ensemble Energy: 237.98
+
+Probability of move acceptance during MC cycle (dE>0): 0.048124943
+Probability of move acceptance during MC cycle: 0.14148832
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.54639175
+P(T2 -> T3)= 0.29896907
+P(T3 -> T4)= 0.59793814
+P(T4 -> T5)= 0.82474227
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 97************|
+(T0 -> T1)
+Delta: 6.5060241 dE: 360 dB: 0.018072289 Exp(-Delta): 0.0014944096 DECLINED
+(T2 -> T3)
+Delta: 4.9542723 dE: 316 dB: 0.015678077 Exp(-Delta): 0.0070532112 DECLINED
+(T4 -> T5)
+Delta: 1.0434783 dE: 76 dB: 0.013729977 Exp(-Delta): 0.35222741 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 6.7245727 dE: 400 dB: 0.016811432 Exp(-Delta): 0.0012010337 DECLINED
+(T3 -> T4)
+Delta: -0.52760137 dE: -36 dB: 0.014655594 Exp(-Delta): 1.6948621 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 76.105263 dE: -964 dB: -0.078947368 Exp(-Delta): 8.8696027e-34 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -659.69155
+Ensemble Temp: 2.075
+Average Ensemble Energy: -159.81691
+Ensemble Temp: 2.15
+Average Ensemble Energy: -54.487423
+Ensemble Temp: 2.225
+Average Ensemble Energy: 165.65773
+Ensemble Temp: 2.3
+Average Ensemble Energy: 221.36247
+Ensemble Temp: 2.375
+Average Ensemble Energy: 238.54186
+
+Probability of move acceptance during MC cycle (dE>0): 0.049178343
+Probability of move acceptance during MC cycle: 0.1451117
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.54081633
+P(T2 -> T3)= 0.29591837
+P(T3 -> T4)= 0.60204082
+P(T4 -> T5)= 0.82653061
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 98************|
+(T0 -> T1)
+Delta: 7.5903614 dE: 420 dB: 0.018072289 Exp(-Delta): 0.00050529838 DECLINED
+(T2 -> T3)
+Delta: 4.0135877 dE: 256 dB: 0.015678077 Exp(-Delta): 0.018068455 DECLINED
+(T4 -> T5)
+Delta: 0.43935927 dE: 32 dB: 0.013729977 Exp(-Delta): 0.64444921 ACCEPTED (Delta > 0)
+(T1 -> T2)
+Delta: 5.4469039 dE: 324 dB: 0.016811432 Exp(-Delta): 0.0043096271 DECLINED
+(T3 -> T4)
+Delta: -0.46897899 dE: -32 dB: 0.014655594 Exp(-Delta): 1.5983614 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 73.894737 dE: -936 dB: -0.078947368 Exp(-Delta): 8.0895348e-33 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -660.38531
+Ensemble Temp: 2.075
+Average Ensemble Energy: -161.61959
+Ensemble Temp: 2.15
+Average Ensemble Energy: -53.542857
+Ensemble Temp: 2.225
+Average Ensemble Energy: 166.94204
+Ensemble Temp: 2.3
+Average Ensemble Energy: 221.64082
+Ensemble Temp: 2.375
+Average Ensemble Energy: 238.60571
+
+Probability of move acceptance during MC cycle (dE>0): 0.049102469
+Probability of move acceptance during MC cycle: 0.14531791
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.53535354
+P(T2 -> T3)= 0.29292929
+P(T3 -> T4)= 0.60606061
+P(T4 -> T5)= 0.82828283
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+|************Cycle 99************|
+(T0 -> T1)
+Delta: 6.5060241 dE: 360 dB: 0.018072289 Exp(-Delta): 0.0014944096 DECLINED
+(T2 -> T3)
+Delta: 3.1356154 dE: 200 dB: 0.015678077 Exp(-Delta): 0.043472994 DECLINED
+(T4 -> T5)
+Delta: -1.0434783 dE: -76 dB: 0.013729977 Exp(-Delta): 2.8390749 ACCEPTED (Delta < 0)
+(T1 -> T2)
+Delta: 7.3297843 dE: 436 dB: 0.016811432 Exp(-Delta): 0.00065571504 DECLINED
+(T3 -> T4)
+Delta: -0.46897899 dE: -32 dB: 0.014655594 Exp(-Delta): 1.5983614 ACCEPTED (Delta < 0)
+(T5 -> T0)
+Delta: 82.105263 dE: -1040 dB: -0.078947368 Exp(-Delta): 2.1985547e-36 DECLINED
+
+Replicas Exchanged: 2
+
+Ensemble Temp: 2
+Average Ensemble Energy: -661.07152
+Ensemble Temp: 2.075
+Average Ensemble Energy: -163.41657
+Ensemble Temp: 2.15
+Average Ensemble Energy: -52.602828
+Ensemble Temp: 2.225
+Average Ensemble Energy: 167.97899
+Ensemble Temp: 2.3
+Average Ensemble Energy: 222.35636
+Ensemble Temp: 2.375
+Average Ensemble Energy: 238.51798
+
+Probability of move acceptance during MC cycle (dE>0): 0.048334066
+Probability of move acceptance during MC cycle: 0.14155482
+
+Probability of move acceptance during replica exchange: 
+P(T0 -> T1)= 0
+P(T1 -> T2)= 0.53
+P(T2 -> T3)= 0.29
+P(T3 -> T4)= 0.61
+P(T4 -> T5)= 0.83
+P(T5 -> T0)= 0
+|----PRINTER COMPLETE----|
+
+
+|------------------REMC FINISHED------------------|
+
+|********Ending Time Stamp********|
+Computation Time: 0 days 0 hours 0 minutes 10 seconds
+GPU Real Time (Build Starting System): 0 days 0 hours 0 minutes 0.00020752 seconds
+GPU Real Time (Calculating Energies): 0 days 0 hours 0 minutes 0.461076 seconds
+Total GPU Real Time: 0 days 0 hours 0 minutes 0.461284 seconds
+Wall Time: 0 days 0 hours 0 minutes 3 seconds
+
+End Time: Wed Apr 30 13:38:19 2014
+

@@ -1,0 +1,9 @@
+mpic++  -std=c++11 -c lib_classes.cpp -o compiler_outputs/lib_classes.o
+nvcc -arch=sm_13  -Xcompiler -Wall -m64 -c lib_cuda_main.cu -o compiler_outputs/lib_cuda_k.o
+mpic++ -fopenmp -std=c++11 -c main_mpi.cpp -o compiler_outputs/REMC.o
+mpic++ -fopenmp -std=c++11 -c lib_mpi.cpp -o compiler_outputs/lib_mpi.o
+mpic++ compiler_outputs/lib_classes.o compiler_outputs/REMC.o compiler_outputs/lib_mpi.o  compiler_outputs/lib_cuda_k.o  -fopenmp -lcudart -L/usr/local/cuda-5.0/lib64 -o ../CUDA_REMC_PROG
+echo "CUDA_REMC COMPILED...............!"
+cp -r ../../CUDA_REMC/ ../../BACKUP/
+echo "CUDA_REMC/ DIRECTORY SAVED TO: ../../BACKUP/"
+
